@@ -1,34 +1,37 @@
-Template Data Repo
-==================
+# Riftway Cataclysm Data Files #
 
-[![Latest release](https://img.shields.io/github/release/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/BSData/TemplateDataRepo/releases/latest)
-[![Commits (since latest release)](https://img.shields.io/github/commits-since/BSData/TemplateDataRepo/latest.svg?style=flat-square)](https://github.com/BSData/TemplateDataRepo/releases)
-[![Open bugs](https://img.shields.io/github/issues/BSData/TemplateDataRepo/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/TemplateDataRepo/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Contributors](https://img.shields.io/github/contributors/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/BSData/TemplateDataRepo/graphs/contributors)
-[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/BSData/TemplateDataRepo/pulse/monthly)
-
-[![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://www.bsdata.net/discord)
+[![Latest release](https://img.shields.io/github/release/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/ctdavids/RiftwayCataclysmDataFiles/releases/latest)
+[![Commits (since latest release)](https://img.shields.io/github/commits-since/BSData/TemplateDataRepo/latest.svg?style=flat-square)](https://github.com/ctdavids/RiftwayCataclysmDataFiles/releases)
+[![Open bugs](https://img.shields.io/github/issues/BSData/TemplateDataRepo/bug.svg?style=flat-square&label=bugs)](https://github.com/ctdavids/RiftwayCataclysmDataFiles/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+[![Contributors](https://img.shields.io/github/contributors/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/ctdavids/RiftwayCataclysmDataFiles/graphs/contributors)
+[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/ctdavids/RiftwayCataclysmDataFiles/pulse/monthly)
 
 ## Overview ##
 
-__What's this?__
+This is a Github repository of datafiles initial created using the [BSData template](https://github.com/BSData/TemplateDataRepo).
+The data files themselves are created and maintained by a community of volunteers in no way endorsed by BattleScribe, 
+NewRecruit, or any other company/publisher.
 
-BSData organisation created this project. It's a GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe or any other company/publisher. If you want
-to develop - cool! We need you! Take a look at [our homepage][BSData.net]
+### What's Riftway Cataclysm ###
 
-__Okay, nice project. Is it actually working?__ _I just want those files..._
+It's a free, miniature-agnostic war game. You can find more about it here: https://riftwaycataclysm.com/.
 
-Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
+It also has an official discord: [![Riftway Cataclysm Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://discord.gg/XS6khzJS6c).
 
-__I found a bug!__ / *I have another request*
+### How to use these files ###
 
-Great, thank you! Please [Report a bug][bug report] - you can also suggest enhancements and raise other issues there.
+The files are developed for and tested with [NewRecruit](https://newrecruit.eu/). They may work with other applications, 
+but there are no guarantees.
 
-## Links ##
+Our recommend printing settings for your roster are:
+* Use Pretty PDF print
+* In the options
+  * Display Roster Name and/or Note as you prefer
+  * Hide Forces entirely
+  * Show Cards (none of the sub options need to be enabled)
+  * Show Force Rules if you want a list of all standard rules included (hide if you know them/have a cheat sheet)
+  * Show Selection Rules (this will show uncommon rules, primarily those associated with your Commander)
 
-* [BSData organization homepage][BSData.net]
-* [BattleScribe app homepage](https://www.battlescribe.net/)
+### I found a bug / I have a feature request ###
 
-[BSData.net]: https://www.bsdata.net/
-[bug report]: https://github.com/BSData/TemplateDataRepo/issues/new/choose
+Blast! But thank you! Please [Report a bug](https://github.com/ctdavids/RiftwayCataclysmDataFiles/issues/new/choose) - you can also suggest enhancements and raise other issues there.

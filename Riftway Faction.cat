@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="5a83-411e-d5e6-716a" name="Riftway Faction" gameSystemId="sys-0fce-63e8-ee69-564a" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <catalogueLinks>
+    <catalogueLink type="catalogue" name="Troop Archetypes" id="953e-07d1-c515-d45a" targetId="b91f-62bd-be42-f47c" importRootEntries="true"/>
+    <catalogueLink type="catalogue" name="Commander Archetypes" id="c2de-79cc-bf68-a6d7" targetId="a829-6a90-c55e-a89a" importRootEntries="true"/>
+  </catalogueLinks>
+  <entryLinks>
+    <entryLink import="true" name="Apex Predator" hidden="false" id="a07a-d79d-6aef-4b5c" type="selectionEntry" targetId="oiqi-pt38-adkc-ky0d"/>
+    <entryLink import="true" name="Arch Riftweaver" hidden="false" id="2307-1b45-f1de-afc8" type="selectionEntry" targetId="ybnd-tc9k-p6zj-jco9"/>
+    <entryLink import="true" name="Armored Behemoth" hidden="false" id="02ff-63f9-05ae-5df4" type="selectionEntry" targetId="xz7m-yoar-zmgg-efbw"/>
+    <entryLink import="true" name="Berserkers" hidden="false" id="a21b-a063-65f3-33d0" type="selectionEntry" targetId="hgx2-kjvl-z6y1-nubv"/>
+    <entryLink import="true" name="Blaster Tank" hidden="false" id="ee85-e450-6e55-4a5b" type="selectionEntry" targetId="c45k-yapa-m9kn-y5i4"/>
+    <entryLink import="true" name="Breachers" hidden="false" id="a9a7-41b4-9982-d855" type="selectionEntry" targetId="izvz-085r-1mfg-31i7"/>
+    <entryLink import="true" name="Butchers" hidden="false" id="5c3a-785d-67d1-9db5" type="selectionEntry" targetId="nchn-47p5-jz36-e2c9"/>
+    <entryLink import="true" name="Captain" hidden="false" id="66aa-1876-dbd2-9ef2" type="selectionEntry" targetId="wqqq-2h79-ujkx-n7x4"/>
+    <entryLink import="true" name="Champion" hidden="false" id="c16b-af52-b437-b0e0" type="selectionEntry" targetId="0qck-t8tq-tvj3-cnrl"/>
+    <entryLink import="true" name="Command Barge" hidden="false" id="1c14-a651-d733-9174" type="selectionEntry" targetId="so86-cd0r-p7bs-ebcx"/>
+    <entryLink import="true" name="Commando" hidden="false" id="660f-19ca-3828-8bb3" type="selectionEntry" targetId="d118-x3w6-ykmo-thlv"/>
+    <entryLink import="true" name="Conscripts" hidden="false" id="def0-434d-83ee-3509" type="selectionEntry" targetId="044e-cfc7-7d55-fd3d"/>
+    <entryLink import="true" name="Cosmic Knights" hidden="false" id="6a19-5333-11b1-5133" type="selectionEntry" targetId="12v6-bop7-9vdi-sccc"/>
+    <entryLink import="true" name="Defenders" hidden="false" id="78e9-c9e8-74de-5789" type="selectionEntry" targetId="lc31-oe3q-m6an-0xo6"/>
+    <entryLink import="true" name="Destroyer Tank" hidden="false" id="988d-bdc7-0582-7636" type="selectionEntry" targetId="idk3-njal-vdke-jwi0"/>
+    <entryLink import="true" name="Devastators" hidden="false" id="75b1-05ca-3360-dcd6" type="selectionEntry" targetId="2egv-3hca-l7ci-y0dw"/>
+    <entryLink import="true" name="Dominators" hidden="false" id="91bf-5453-cba6-0014" type="selectionEntry" targetId="cx9y-0y07-b240-hp6o"/>
+    <entryLink import="true" name="Excreter Beast" hidden="false" id="377b-5634-1e95-e42f" type="selectionEntry" targetId="66h1-ka8v-j3e6-ak8s"/>
+    <entryLink import="true" name="Faction Background" hidden="false" id="55e3-16e2-6ae1-2880" type="selectionEntry" targetId="0206-2579-2eb6-edac"/>
+    <entryLink import="true" name="Flesh Grinder" hidden="false" id="11b0-0654-a2f0-a7cb" type="selectionEntry" targetId="1hoa-vimk-8d6v-eqgs"/>
+    <entryLink import="true" name="Gangers" hidden="false" id="db38-c82e-9942-1843" type="selectionEntry" targetId="4457-0321-80c9-a122"/>
+    <entryLink import="true" name="Gatling Tank" hidden="false" id="a158-c004-d4df-b3fc" type="selectionEntry" targetId="j1a1-48cq-0sqz-6gx2"/>
+    <entryLink import="true" name="Horde" hidden="false" id="82f1-316e-ae42-d924" type="selectionEntry" targetId="41f2-e806-a6ba-0312"/>
+    <entryLink import="true" name="Immolator Tank" hidden="false" id="a411-5a94-2683-4a05" type="selectionEntry" targetId="m2el-qh4z-5ogs-8lcx"/>
+    <entryLink import="true" name="Martyr" hidden="false" id="866e-da2a-7aae-0835" type="selectionEntry" targetId="00ec-f01c-487a-51bd">
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0.01"/>
+      </costs>
+    </entryLink>
+    <entryLink import="true" name="Master Infiltrator" hidden="false" id="38ec-4e83-9432-e045" type="selectionEntry" targetId="wjcy-9mip-52bo-gyif"/>
+    <entryLink import="true" name="Mecha Jaeger" hidden="false" id="0162-23d3-4ab2-53b8" type="selectionEntry" targetId="g9cf-27r5-a2lk-4vlu"/>
+    <entryLink import="true" name="Mobile Fortress" hidden="false" id="108b-2d71-2d63-a701" type="selectionEntry" targetId="l8j0-jjq4-8d8o-09zb"/>
+    <entryLink import="true" name="Obliterators" hidden="false" id="f225-df24-5be3-1cb0" type="selectionEntry" targetId="s0xz-mkzf-uqs1-zxb2"/>
+    <entryLink import="true" name="Ogres" hidden="false" id="2b49-28a2-eb3e-20bb" type="selectionEntry" targetId="fs5e-86ow-lglr-3yww"/>
+    <entryLink import="true" name="Peerless Tactician" hidden="false" id="2b2b-fd55-14d4-da6f" type="selectionEntry" targetId="gtva-cfac-i1nd-ydyx"/>
+    <entryLink import="true" name="Power Marines" hidden="false" id="a47b-b135-bade-e0d1" type="selectionEntry" targetId="l620-63o3-k77l-wn2n"/>
+    <entryLink import="true" name="Raiders" hidden="false" id="ef3e-0c0a-f07b-0bae" type="selectionEntry" targetId="t00a-t6jk-iisv-9r7b"/>
+    <entryLink import="true" name="Ravenous Beast" hidden="false" id="e419-a3cd-79a1-5403" type="selectionEntry" targetId="m1xz-gg90-6iaw-i6y6"/>
+    <entryLink import="true" name="Razor Beast" hidden="false" id="80ac-ec12-2166-4b4c" type="selectionEntry" targetId="o0u0-zixz-tl7e-pp40"/>
+    <entryLink import="true" name="Reavers" hidden="false" id="1d24-e132-f244-367b" type="selectionEntry" targetId="tbym-246r-k0wj-az1u"/>
+    <entryLink import="true" name="Riflemen" hidden="false" id="790e-6905-e294-a86f" type="selectionEntry" targetId="5t0r-sumd-ahvd-uu7r"/>
+    <entryLink import="true" name="Rift War Veterans" hidden="false" id="a1a1-8d03-5b27-60af" type="selectionEntry" targetId="k9db-xn05-qrg6-86il"/>
+    <entryLink import="true" name="Saboteurs" hidden="false" id="df82-48d8-5fd1-67fe" type="selectionEntry" targetId="7140-f1dc-926b-bcd1"/>
+    <entryLink import="true" name="Scorchers" hidden="false" id="3b2b-fe14-83c2-25d1" type="selectionEntry" targetId="8yqk-ebwv-l1hx-zgde"/>
+    <entryLink import="true" name="Shield Wardens" hidden="false" id="5efd-774a-6b3d-79fb" type="selectionEntry" targetId="8650-c43a-esjp-blp5"/>
+    <entryLink import="true" name="Shock Cavalry" hidden="false" id="194c-f468-3888-400f" type="selectionEntry" targetId="1bfk-tlq5-24ro-vc13"/>
+    <entryLink import="true" name="Siege Breakers" hidden="false" id="fd1e-8b07-d527-0b08" type="selectionEntry" targetId="08sj-olvr-wt3c-knum"/>
+    <entryLink import="true" name="Slaughter Lord" hidden="false" id="b414-5c0e-9fe4-47d2" type="selectionEntry" targetId="f7s8-xie7-w0us-953f"/>
+    <entryLink import="true" name="Sniper" hidden="false" id="9af5-e3d1-636a-65a5" type="selectionEntry" targetId="ofp6-gidi-d0u2-n40v"/>
+    <entryLink import="true" name="Special Ops" hidden="false" id="ba77-1c22-b417-dd6f" type="selectionEntry" targetId="fdd4-m3ik-qfa1-zjdp"/>
+    <entryLink import="true" name="Tank Hunters" hidden="false" id="2924-02fd-aa9f-18c5" type="selectionEntry" targetId="a128-58fa-cdf4-c070"/>
+    <entryLink import="true" name="Titan Warlord" hidden="false" id="1831-7aa8-1ab0-b51f" type="selectionEntry" targetId="egst-v0z4-xc35-l7uj"/>
+    <entryLink import="true" name="Toxic Bio-Weapon" hidden="false" id="3212-3810-46ff-15da" type="selectionEntry" targetId="jero-wvnd-ukkp-g0ar"/>
+    <entryLink import="true" name="Warrior Poet" hidden="false" id="c0ca-a799-9be7-0b2b" type="selectionEntry" targetId="akvf-3wqd-dhac-c6lr"/>
+  </entryLinks>
+</catalogue>
