@@ -1,0 +1,792 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="a829-6a90-c55e-a89a" name="Commander Archetypes" gameSystemId="sys-0fce-63e8-ee69-564a" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Arch Riftweaver" hidden="false" id="ybnd-tc9k-p6zj-jco9">
+      <categoryLinks>
+        <categoryLink targetId="c89d-8316-4a17-d462" id="jwrp-wsat-367x-eygt" primary="false" name="Beast"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="06q2-ypyv-upg6-jf1y" primary="false" name="Troop"/>
+        <categoryLink targetId="4ecc-ee85-550f-f1c7" id="eccc-a2c2-7fe2-dca9" primary="true" name="Commander"/>
+        <categoryLink targetId="3d4a-a286-8c44-a69e" id="6450-0d2e-717e-48c1" primary="false" name="Power 2"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="94cb-15b8-66b4-6963" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="8f29-4028-0f1b-b8d1" primary="false" name="Has_Weapon_Short_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="d6a5-d711-9060-a804" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="ec8c-fe45-343c-ab75" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Arch Riftweaver" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="hp3j-5d96-h60o-cz7t">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Beast</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">25</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">5</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="013b-5fdd-b6e3-f841">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="aea5-e232-89ac-936e">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Elusive 4; Power 2; Psychic Assault</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mind Bolt" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="ouoj-mxrf-smvn-ptqn">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 24&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">4</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1, Fearless 10, Scramble 1, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mind Blade" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="vnan-1qrm-nh52-y6ho">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">4</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">3</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1, Unstoppable 10, Scramble 1, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Psychic Assault" id="a7e9-f3f1-caf5-22f9" hidden="false">
+          <description>This unit may shoot into Melee combat without penalty and ignores Concealment.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Manifestations" hidden="false" id="f789-451a-f193-ba5d" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+        <entryLink import="true" name="Select Empowered Weapon" hidden="false" id="ef42-16c1-a1dc-9eea" type="selectionEntryGroup" targetId="9eb5-a52d-3574-b26f"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name=" - Faction Rules" id="104a-e3aa-55d9-308d" hidden="false" type="infoGroup" targetId="38ca-fda2-38f5-fe98"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Command Barge" hidden="false" id="so86-cd0r-p7bs-ebcx">
+      <categoryLinks>
+        <categoryLink targetId="a7ea-223a-285f-bcb7" id="ojp0-ik5b-e31f-rcah" primary="false" name="War Machine"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="j7k9-szi3-pwuj-qvk4" primary="false" name="Troop"/>
+        <categoryLink targetId="4ecc-ee85-550f-f1c7" id="ec61-8a81-1f0e-22fd" primary="true" name="Commander"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="2942-7907-996f-0d5f" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="fc10-93a6-8539-9158" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="61e7-b035-0e7e-588a" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Command Barge" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="8qne-sru8-zfy1-rp6k">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">War Machine</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">28</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">3</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">9&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="9fc4-f636-e4e8-f30c">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Smoke Launchers</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="9f27-96e9-b5ce-ea6b">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Advanced Targeting</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Omega Cannon" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="fkib-rc6t-28s0-tdvs">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">4</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">4</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 2, Scramble 1, Weapon Platform, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Butcher Sponsons" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="ot7i-tp4g-jtqg-d93l">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">6</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">1</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 2, Weapon Platform</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Advanced Targeting" id="cbe2-f8ff-e56c-1d19" hidden="false">
+          <description>When attacking, this unit may shoot its Omega Cannon and two Butcher Sponsons, but each must target a different enemy. All attacks ignore 1 Concealment.</description>
+        </rule>
+        <rule name="Smoke Launchers" id="29b7-9534-79b8-7db2" hidden="false">
+          <description>Instead of shooting the Omega Cannon, you may use Hunker 4.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Manifestations" hidden="false" id="7f74-6a86-c7b6-4053" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+        <entryLink import="true" name="Select Empowered Weapon" hidden="false" id="353f-015d-0693-338c" type="selectionEntryGroup" targetId="9eb5-a52d-3574-b26f"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name=" - Faction Rules" id="24c4-aa81-ae11-b9f7" hidden="false" type="infoGroup" targetId="38ca-fda2-38f5-fe98"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Master Infiltrator" hidden="false" id="wjcy-9mip-52bo-gyif">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="pivg-ppux-olbf-9dwn" primary="false" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="dho3-9rjs-0zbf-jh7o" primary="false" name="Troop"/>
+        <categoryLink targetId="4ecc-ee85-550f-f1c7" id="ede8-e6c9-c8a6-16de" primary="true" name="Commander"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="411c-2022-5d9f-0059" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="0100-a671-4a99-979c" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="a432-fc53-d140-8bb5" primary="false" name="Has_Weapon_Short_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="cd33-f384-9f0f-229b" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Master Infiltrator" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="9dqf-u94x-wpts-bj68">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">21</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">8&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="9655-f416-142a-0e9c">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 8&quot;; Hunker 6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="4de7-fc1f-5e7f-909a">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative; Elusive 4; Infiltrate; Heroic Initiative; Sow Disloyalty</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Explosives" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="h00m-p8xv-btz3-gqph">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 6&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1, Scramble 3, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Laser Blade" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="ifo0-ump9-bibr-o2zv">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">6</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">3</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 5, Defend 1 (Max 2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Sow Disloyalty" id="90aa-0c8f-5a4b-2170" hidden="false">
+          <description>Spend 1 Strategic Token. Once per turn, after an enemy squad finishes moving, you may move it 2&quot;.</description>
+        </rule>
+        <rule name="Infiltrate" id="44b5-d1f1-15b9-53fe" hidden="false">
+          <description>This Commander and up to one other troop may be deployed off the board in hiding. When the Infiltrator is activated, they and the troop emerge. Set up all three units so that their bases are touching a board edge and this Commander. You must deploy wholly outside your opponent&apos;s deployment zone. Immediately activate the Master Infiltrator. The accompanying unit may be activated later in that turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Heroic Initiative" id="973d-87f8-15dd-490b" hidden="false" type="rule" targetId="a87d-d7c9-ee9c-89ea"/>
+        <infoLink name=" - Faction Rules" id="815d-ee88-01f0-12eb" hidden="false" type="infoGroup" targetId="38ca-fda2-38f5-fe98"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Manifestations" hidden="false" id="c931-82bf-2513-1e97" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+        <entryLink import="true" name="Select Empowered Weapon" hidden="false" id="d8ec-8694-2ca8-9d18" type="selectionEntryGroup" targetId="9eb5-a52d-3574-b26f"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Peerless Tactician" hidden="false" id="gtva-cfac-i1nd-ydyx">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="ryc8-xh7t-e8hk-0hhz" primary="false" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="4tu7-fwjg-4xej-3aap" primary="false" name="Troop"/>
+        <categoryLink targetId="4ecc-ee85-550f-f1c7" id="83a9-3540-7aa0-aad7" primary="true" name="Commander"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="11bb-8e24-ae09-0d31" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="f31e-5075-736f-9804" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="95de-6344-3447-ce7e" primary="false" name="Has_Weapon_Short_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0"/>
+        <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Peerless Tactician" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="7hcz-0jzr-imof-c2fo">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">18</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="d521-3978-23f7-e632">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 4; Assess Battlefield</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="9935-cb7f-9d03-98ee">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative; Elusive 2; Direct Fire; Logistics</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ceremonial Pistol" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="z2r0-gsak-pjfc-271q">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">3</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 2, Gunline</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cane Sword" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="yntz-17gf-pn1z-fp5g">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 2, Defend 1 (Max 1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Assess Battlefield (Action)" id="3690-e3db-0fc3-9d76" hidden="false">
+          <description>Gain 2 Strategic Tokens.</description>
+          <alias>Assess Battlefield</alias>
+        </rule>
+        <rule name="Logistics" id="5434-ba27-a621-a57f" hidden="false">
+          <description>Your army may contain one additional Troop Choice. The enemy generates 1 fewer Strategic Token each turn.</description>
+        </rule>
+        <rule name="Direct Fire" id="0069-5329-5926-e370" hidden="false">
+          <description>Once per turn, spend 2 Strategic Tokens and select a unit with Line of Sight to this unit. That unit can perform two actions. If it attacks twice, it must target different enemy units with each attack.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Manifestations" hidden="false" id="e33b-45ce-199e-2c6a" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+        <entryLink import="true" name="Select Empowered Weapon" hidden="false" id="4ee8-c2c9-d9ac-862b" type="selectionEntryGroup" targetId="9eb5-a52d-3574-b26f"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name=" - Faction Rules" id="2773-bf28-c397-d9f4" hidden="false" type="infoGroup" targetId="38ca-fda2-38f5-fe98"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Slaughter Lord" hidden="false" id="f7s8-xie7-w0us-953f">
+      <categoryLinks>
+        <categoryLink targetId="c89d-8316-4a17-d462" id="583w-24b0-q6tb-hktk" primary="false" name="Beast"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="mow5-yk4j-wrrb-zbn2" primary="false" name="Troop"/>
+        <categoryLink targetId="4ecc-ee85-550f-f1c7" id="d95b-7f64-0b98-5118" primary="true" name="Commander"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="7dcc-6d63-267f-c8d8" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Slaughter Lord" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="0n0i-q5ob-tdnq-fcet">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Beast</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">38</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">8&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="6998-8bcc-a22b-fe54">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 7&quot;; Hunker 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="13e3-93a0-737e-ae41">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Heroic Initiative; Aggression Incarnate; Whirlwind of Death</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Brutal Charge" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="8bkt-pf5x-azxp-gsci">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">First Strike, Block 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bloody Carnage" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="ee91-cdeg-bp3c-sgdv">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">8</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 4, Defend 2 (Max 2), Unstoppable 1, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Aggression Incarnate" id="67f2-1d74-f5e0-4374" hidden="false">
+          <description>This unit may use the Double Time ploy any number of times during its movement phase.</description>
+        </rule>
+        <rule name="Whirlwind of Death" id="845d-0d13-58e2-9a39" hidden="false">
+          <description>If this unit moves 1&quot; away from an enemy attacking it with a Melee weapon, reduce those attacks by half, rounding up. Any of this unit&apos;s unresolved outgoing attacks are also reduced by half, rounding up, and then resolved immediately.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Heroic Initiative" id="9986-e476-3345-726c" hidden="false" type="rule" targetId="a87d-d7c9-ee9c-89ea"/>
+        <infoLink name=" - Faction Rules" id="ad4c-6366-ad26-4c1f" hidden="false" type="infoGroup" targetId="38ca-fda2-38f5-fe98"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Manifestations" hidden="false" id="86b6-fe71-4610-1680" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+        <entryLink import="true" name="Select Empowered Weapon" hidden="false" id="b7d5-aac7-fa18-19fc" type="selectionEntryGroup" targetId="9eb5-a52d-3574-b26f"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Titan Warlord" hidden="false" id="egst-v0z4-xc35-l7uj">
+      <categoryLinks>
+        <categoryLink targetId="a7ea-223a-285f-bcb7" id="ic35-ts0f-5sr6-tzrg" primary="false" name="War Machine"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="uoa5-gy0g-udg4-aze9" primary="false" name="Troop"/>
+        <categoryLink targetId="4ecc-ee85-550f-f1c7" id="9daf-d8ee-438e-95ee" primary="true" name="Commander"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="09aa-dd25-862b-3629" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="52fa-b879-9d3f-57eb" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="893d-5033-7792-30ec" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Titan Warlord" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="25j6-z4p2-ojsf-xthy">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">War Machine</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">28</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">4</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">7&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="7813-a467-43c4-8c76">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 7&quot;; Hunker 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="ac46-505c-b2ef-d077">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Heroic Initiative; Titan&apos;s Steel</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Titan Cannon" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="e8ag-pxig-bbw9-eldr">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">5</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 3, Weapon Platform</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Titan Blade" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="4m3t-rl4k-owwm-7h52">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">4</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 3, Defend 1 (Max 1), Scramble 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="Titan&apos;s Steel" id="b93b-c901-8e25-39e5" hidden="false">
+          <description>When this unit is successful in defending during a Lethal Gambit, ignore 4 damage for every token wagered instead of 2.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink name="Heroic Initiative" id="2ab0-5217-cc61-4ec4" hidden="false" type="rule" targetId="a87d-d7c9-ee9c-89ea"/>
+        <infoLink name=" - Faction Rules" id="5f7f-10e3-efa3-0b57" hidden="false" type="infoGroup" targetId="38ca-fda2-38f5-fe98"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink import="true" name="Manifestations" hidden="false" id="c883-c74e-35f5-a9b0" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+        <entryLink import="true" name="Select Empowered Weapon" hidden="false" id="1c2d-436c-3b5d-a9cc" type="selectionEntryGroup" targetId="9eb5-a52d-3574-b26f"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Warrior Poet" hidden="false" id="akvf-3wqd-dhac-c6lr">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="xcys-frii-6tuk-v1rw" primary="false" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="t8y9-r32z-rb4v-jxop" primary="false" name="Troop"/>
+        <categoryLink targetId="4ecc-ee85-550f-f1c7" id="1ad1-8895-3a4c-b229" primary="true" name="Commander"/>
+        <categoryLink targetId="7132-c89d-5c3b-f144" id="fe0a-8ffd-434f-a5b3" primary="false" name="Power 1"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="bdea-d216-f91d-358e" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="ed48-f09d-161c-8ba1" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="6dea-b72f-23cf-e60e" primary="false" name="Has_Weapon_Short_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="66c2-2c4a-462e-652a" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="e875-b424-3d08-6411" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Warrior Poet" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="xpns-xxjh-zimc-3hp5">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">26</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">4</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="402c-a8d1-9fea-f56e">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="ee44-bd9a-8802-6c0d">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative; Elusive 1; Power 1; People&apos;s Champion; Inspire Greatness</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Melter Pistol" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="65z4-qn40-6dhz-oudm">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">4</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 4, Fearless 1, Fire Away 1, Gunline</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Master&apos;s Blade" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="7z6l-589i-rjer-gao0">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">8</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 4, Defend 1 (Max 3), Unstoppable 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule name="People&apos;s Champion" id="119e-cc7e-4a01-425c" hidden="false">
+          <description>This unit may move and see through allied Infantry.</description>
+        </rule>
+        <rule name="Inspire Greatness" id="95f6-b4f4-95ef-d183" hidden="false">
+          <description>Other friendly Infantry within 1&quot; benefit from -1 armor. Units without armor are treated as having 8 armor.</description>
+        </rule>
+      </rules>
+      <entryLinks>
+        <entryLink import="true" name="Manifestations" hidden="false" id="cc65-071b-0ed3-7918" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+        <entryLink import="true" name="Select Empowered Weapon" hidden="false" id="035b-b4dc-c1e9-6a9b" type="selectionEntryGroup" targetId="9eb5-a52d-3574-b26f"/>
+      </entryLinks>
+      <infoLinks>
+        <infoLink name=" - Faction Rules" id="1f13-9cc2-3927-3a86" hidden="false" type="infoGroup" targetId="38ca-fda2-38f5-fe98"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule name="Heroic Initiative" id="a87d-d7c9-ee9c-89ea" hidden="false">
+      <description>This unit may perform two different actions per turn. That may include attacking with two different weapons.</description>
+    </rule>
+  </sharedRules>
+  <sharedInfoGroups>
+    <infoGroup name=" - Faction Rules" id="38ca-fda2-38f5-fe98" hidden="false">
+      <profiles>
+        <profile name="Angelic" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="ead4-8ed8-30b6-1e86">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">Gain Fly and +1&quot; Movement.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="f2d5-2c5b-1b6b-446b" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Courageous" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="3a3f-780f-cce2-36d6">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">While within 3&quot; of an objective, lower your armor score by 1.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="187f-fce7-cf3d-fa8a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="80cc-a9e7-313e-ee4a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Courageous" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="0b20-f85c-6c65-d9f1">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">While within 3&quot; of an objective, treat your armor score as 5.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="187f-fce7-cf3d-fa8a" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="instanceOf" value="1" field="selections" scope="self" childId="80cc-a9e7-313e-ee4a" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Cunning" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="01f7-f65c-e530-6e94">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">This Commander gains the Operative ability and counts as four models.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="e612-d75a-2583-38c2" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Deceitful" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="71c8-b5bd-5fe0-5628">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">Deploy an identical unit in base contact. As soon as one performs any action or takes damage, remove the other model. The extra model cannot generate Riftwake or Strategic Tokens for either player.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="ede1-a02a-3151-1d67" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Devout" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="2d60-a7c6-1556-e14e">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">This Commander gains Power 1.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="1108-c0af-a882-d873" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="7132-c89d-5c3b-f144" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="instanceOf" value="1" field="selections" scope="self" childId="3d4a-a286-8c44-a69e" shared="true"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Devout" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="2b8a-7a6d-eff7-3ab6">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">This Commander upgrades to Power 2.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="1108-c0af-a882-d873" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="7132-c89d-5c3b-f144" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Devout" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="f7af-8e78-fb80-fad6">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">This Commander upgrades to Power 3.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="1108-c0af-a882-d873" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="notInstanceOf" value="1" field="selections" scope="self" childId="3d4a-a286-8c44-a69e" shared="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Graceful" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="9f84-bc67-fd70-47a1">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">Each time you run, you may use Hunker 2 as a free action.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="3628-59ff-c419-f4ab" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Hateful" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="8c54-05d0-0d21-b34e">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">After deployment and before determining first activation, select an enemy troop. Gain Fearless 2, Unstoppable 2, and Countermeasures 1 vs. that troop.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="lessThan" value="1" field="selections" scope="roster" childId="82c0-92ab-1388-4dbb" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Innovative" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="689d-9fdd-0429-b1e0">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">Select one weapon. That weapon ignores 1 Concealment.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="5e8b-f889-291d-bb62" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="c3ed-e61a-bbde-1896" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="096f-7d83-3836-a609" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Innovative (Weapon 1)" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="ab10-d813-656c-5691">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">Your first weapon ignores 1 Concealment.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="5e8b-f889-291d-bb62" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="self" childId="c3ed-e61a-bbde-1896" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Innovative (Weapon 2)" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="c6bf-919f-3059-7fa3">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">Your second weapon ignores 1 Concealment.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="5e8b-f889-291d-bb62" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="self" childId="096f-7d83-3836-a609" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Peaceful" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="80aa-4109-5c1c-d407">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">Select one weapon. That weapon gains +1 Suppression, +1 Block, +1 Scramble, and +1 Max Defend.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="18eb-0693-d89d-a6e8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="c3ed-e61a-bbde-1896" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                    <condition type="atLeast" value="1" field="selections" scope="self" childId="096f-7d83-3836-a609" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Peaceful (Weapon 1)" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="2ddf-ef54-e6c8-25c7">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">Your first weapon gains +1 Suppression, +1 Block, +1 Scramble, and +1 Max Defend.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="18eb-0693-d89d-a6e8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="self" childId="c3ed-e61a-bbde-1896" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </profile>
+        <profile name="Peaceful (Weapon 2)" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="e4db-c4f3-c8f8-17ed">
+          <characteristics>
+            <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">Your second weapon gains +1 Suppression, +1 Block, +1 Scramble, and +1 Max Defend.</characteristic>
+          </characteristics>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition type="lessThan" value="1" field="selections" scope="roster" childId="18eb-0693-d89d-a6e8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                    <condition type="lessThan" value="1" field="selections" scope="self" childId="096f-7d83-3836-a609" shared="true" includeChildSelections="false" includeChildForces="false"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </profile>
+      </profiles>
+    </infoGroup>
+  </sharedInfoGroups>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup name="Select Empowered Weapon" id="9eb5-a52d-3574-b26f" hidden="true">
+      <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="First Weapon" hidden="false" id="c3ed-e61a-bbde-1896"/>
+        <selectionEntry type="upgrade" import="true" name="Second Weapon" hidden="false" id="096f-7d83-3836-a609"/>
+      </selectionEntries>
+      <constraints>
+        <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="659f-c188-2faa-0777" includeChildSelections="false"/>
+        <constraint type="min" value="-1" field="selections" scope="parent" shared="true" id="34f4-c5d4-4924-5e2a" includeChildSelections="false"/>
+      </constraints>
+      <modifiers>
+        <modifier type="set" value="1" field="659f-c188-2faa-0777">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5e8b-f889-291d-bb62" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="18eb-0693-d89d-a6e8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="1" field="34f4-c5d4-4924-5e2a">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5e8b-f889-291d-bb62" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="18eb-0693-d89d-a6e8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="false" field="hidden">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="5e8b-f889-291d-bb62" shared="true" includeChildSelections="true" includeChildForces="true"/>
+                <condition type="atLeast" value="1" field="selections" scope="roster" childId="18eb-0693-d89d-a6e8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" value="Select Innovative Weapon" field="name">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="5e8b-f889-291d-bb62" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="Select Peaceful Weapon" field="name">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="roster" childId="18eb-0693-d89d-a6e8" shared="true" includeChildSelections="true" includeChildForces="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>

@@ -1,0 +1,2256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="b91f-62bd-be42-f47c" name="Troop Archetypes" gameSystemId="sys-0fce-63e8-ee69-564a" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Apex Predator" hidden="false" id="oiqi-pt38-adkc-ky0d">
+      <categoryLinks>
+        <categoryLink targetId="c89d-8316-4a17-d462" id="o22v-gsgw-obgg-98co" primary="true" name="Beast"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="uosi-99jx-fvks-e30b" primary="false" name="Troop"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="35dd-ce05-7693-1e4e" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="6474-10fd-24de-1448" primary="false" name="Has_Weapon_Short_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Apex Predator" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="oen6-494r-w8kp-36bf">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Beast</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">32</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">8&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="3fa9-5c19-37cf-2d93">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="3df3-7733-7ee7-3428">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="Javelin" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="yk7a-tmeq-a6rg-03cy">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">7</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">3</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 4, Fearless 1, Gunline</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rending Slash" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="xjsj-f2la-gdqn-bx7s">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">10</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 5, Defend 2 (Max 2), Unstoppable 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="ro6y-m1bi-8mqc-yaln" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="f924-0149-2497-43e6" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Armored Behemoth" hidden="false" id="xz7m-yoar-zmgg-efbw">
+      <categoryLinks>
+        <categoryLink targetId="a7ea-223a-285f-bcb7" id="jdas-ajt2-c4vf-0fw2" primary="true" name="War Machine"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="7txf-xbog-3o4m-r230" primary="false" name="Troop"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="c34c-83a5-dffe-904b" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="ef21-e6cd-b367-da1d" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Armored Behemoth" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="5mbm-q1em-be7t-nasi">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">War Machine</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">26</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">4</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">9&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="4af3-8279-8017-b83b">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="f286-781c-aa3b-3f53">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="Power Claws" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="vwqo-vn6x-at9s-xmsv">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 6&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">4</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 2, Scramble 2, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="io4r-scle-7osd-3jct" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="523d-c235-038a-5900" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Berserkers" hidden="false" id="hgx2-kjvl-z6y1-nubv">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="s0oz-86wz-yx79-dl74" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="2a2l-47ad-vw5x-o9r4" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="69cf-ee0b-0cf5-fa2a" primary="false" name="Has_Operative"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Berserkers" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="trbq-uj6o-4ecq-zhwo">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">5</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">6</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">7&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="1e22-dfde-3d51-7942">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="a991-2cf9-0f53-1806">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Empowered Blades" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="damb-79e2-2g88-yjat">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">4</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 2, Defend 2 (Max 3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="cz90-b74a-t0y0-ltps" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="4982-49b9-53ac-7e00" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Blaster Tank" hidden="false" id="c45k-yapa-m9kn-y5i4">
+      <categoryLinks>
+        <categoryLink targetId="a7ea-223a-285f-bcb7" id="2ype-rq7o-5u0d-vmw4" primary="true" name="War Machine"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="1s6t-vw24-y90a-ig1v" primary="false" name="Troop"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="2110-a4c8-9efc-35a7" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="9993-a855-5edf-9acc" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="fabe-950b-062d-82d0" primary="false" name="Has_Weapon_Short_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="17c1-5469-635b-dfab" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Blaster Tank" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="ixvy-ap67-l6dt-54l4">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">War Machine</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">28</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">4</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">8&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="4dfb-a1b2-2a42-87ef">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="f874-bbf3-b5db-bb36">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="Blaster Ram" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="odia-abjy-s0i7-e4tk">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">4</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 2, Scramble 1, Armor Pen., Weapon Platform</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ramming Speed" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="i02j-ftu7-z7v5-83fk">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">First Strike, Block 2, Scramble 1, Self Destruct 5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="mjmq-8t6z-9o01-s1t9" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="5d1a-cae1-58ac-9cd8" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Breachers" hidden="false" id="izvz-085r-1mfg-31i7">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="7rrf-44bo-ri51-hygh" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="nhxb-1pbl-8jtm-jeb7" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="6037-1d20-a087-20dd" primary="false" name="Has_Operative"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Breachers" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="73sr-halc-q0ua-2xk6">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">5</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">7</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">7&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="f82a-79b3-2ab4-223d">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="e4af-b975-7fef-b2c4">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Breaching Tools" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="6adx-1y7r-5xwt-go0w">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1, Defend 1 (Max 2), Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="x2ep-wmbw-cakt-ol73" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="c434-d5ad-7ae7-4d03" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Butchers" hidden="false" id="nchn-47p5-jz36-e2c9">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="pyb8-sd90-a3re-ijmv" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="ap0j-sntp-rquj-in3j" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="a04a-f0a5-6176-217a" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="c6c8-b72b-8450-024d" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="916c-3cc8-6f1b-611b" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Butchers" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="fp3d-24wz-rwsw-766c">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">3</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">10</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">5</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="8bc4-0f08-c31c-c383">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 5&quot;; Hunker 4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="b3a8-377b-1846-d7e7">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Butcher&apos;s Blades" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="vrbm-g9tx-cmif-eggz">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">5</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 2, Defend 2 (Max 3), Unstoppable 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="gudc-7spc-iype-c2il" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="d4b6-4587-4da6-a859" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Captain" hidden="false" id="wqqq-2h79-ujkx-n7x4">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="plxn-uxpi-9beh-6ilj" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="eb3v-662h-2919-hgtn" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="42c5-c44e-c3fc-bb46" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="ebca-c5b4-8746-6609" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="425a-3ed7-a1c5-3c69" primary="false" name="Has_Weapon_Short_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="6d34-14b0-c908-e9e2" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Captain" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="vzqb-nw28-io1s-lfx6">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">20</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">4</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="1195-4d45-7cbc-cfa9">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="6c12-ea65-f448-2260">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative; Elusive 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Relic Pistol" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="9ope-fb1i-pcsw-thw5">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">8</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 5, Fearless 1, Gunline</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Artifact Blade" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="66yw-6cmm-mnsm-dp9b">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">6</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">3</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 5, Defend 1 (Max 2), Unstoppable 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="0ijz-lw2j-nh4q-nyt2" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="3890-1b70-def0-56d4" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Champion" hidden="false" id="0qck-t8tq-tvj3-cnrl">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="ypnw-vhkg-nuhx-g9xp" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="1wu6-2jk6-9mbl-mxew" primary="false" name="Troop"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="b9b5-df4d-65fe-11ad" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="84ef-87d3-f458-6468" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Champion" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="k46g-dwbt-38mu-0aqi">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">21</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">4</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="8674-46a3-038a-9694">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="3dd3-df38-3405-2862">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Elusive 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Power Weapon" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="xygn-8zhi-zs15-kobb">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">7</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">3</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 5, Defend 1 (Max 2), Scramble 2, Unstoppable 1, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="lkue-n6v9-xtpm-919c" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="7ba8-865f-2472-900a" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Commando" hidden="false" id="d118-x3w6-ykmo-thlv">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="8r2q-4vi1-826t-rvuv" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="cb23-fwvp-p00y-bdjv" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="c8e7-d9f9-81e8-26fb" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="713a-304f-6f8c-70f8" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="7fd7-b7b2-a7fe-dd1a" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="145e-ac2e-1dd7-4969" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Commando" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="w0xx-90mc-wd34-wlgk">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">18</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">4</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="d610-9132-b44d-7465">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="07d9-e77f-5212-1573">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative; Elusive 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Beam Cannon" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="4m72-fgte-vzdn-njxn">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">10</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">1</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Fire Away 3, Suppression 3, Fearless 1, Scramble 1, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Combat Knife" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="vgv0-autm-jxr7-j473">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">5</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 2, Defend 1 (Max 2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="2n8i-se5u-z9yu-ov1w" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="c217-ed03-bbdb-4d5a" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Conscripts" hidden="false" id="044e-cfc7-7d55-fd3d" subType="unit-group">
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0"/>
+        <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="44d8-0e78-3e1c-e702" primary="false" name="Troop"/>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="d6de-d561-cbb3-5bdf" primary="true" name="Infantry"/>
+        <categoryLink targetId="33e0-fc9d-8e13-6fdb" id="0011-5f09-ba55-a5a3" primary="false" name="Has_Multiple_Units"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="013d-9a4d-f6f5-6cb1" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="2c22-c3b1-79de-9f10" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="e907-a906-fba2-8d6d" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Conscripts" hidden="false" id="5054-1dbe-76e6-a6ca" flatten="false">
+          <costs>
+            <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0.5"/>
+            <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Conscripts" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="356c-e1a3-fb6c-204f">
+              <characteristics>
+                <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+                <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">7</characteristic>
+                <characteristic name="Health" typeId="5de0-480f-5848-34c3">1</characteristic>
+                <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+                <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+                <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="a9f8-cf22-f786-1f82">
+              <characteristics>
+                <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 5&quot;; Hunker 4</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="dc1b-0a61-0640-c91e">
+              <characteristics>
+                <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Scrap Rifle" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="a043-0b83-c7f2-53d6">
+              <characteristics>
+                <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+                <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+                <characteristic name="Damage" typeId="eada-5162-603e-fdb1">1</characteristic>
+                <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1/3, Gunline</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Rifle Stock" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="55ef-bf0a-292a-384c">
+              <characteristics>
+                <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+                <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+                <characteristic name="Damage" typeId="eada-5162-603e-fdb1">1</characteristic>
+                <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1/3, Defend 3 (Max 1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Upgrades" hidden="false" id="36bf-2077-8d96-6980" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+            <entryLink import="true" name="Manifestations" hidden="false" id="20ba-0fc5-e68d-b76e" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e703-f724-6915-23bc-min"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e703-f724-6915-23bc-max"/>
+          </constraints>
+          <categoryLinks>
+            <categoryLink targetId="a210-b2af-e2d1-f2cd" id="da0d-0a9f-fc2e-1a1f" primary="true" name="Infantry"/>
+            <categoryLink targetId="33e0-fc9d-8e13-6fdb" id="83a5-4f84-17c3-0860" primary="false" name="Has_Multiple_Units"/>
+            <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="f2bd-cd0c-f29f-9d9a" primary="false" name="Troop"/>
+            <categoryLink targetId="062b-1e05-912c-5a20" id="af30-010e-aa00-8577" primary="false" name="Has_Operative"/>
+            <categoryLink targetId="83c6-28f3-728a-7b48" id="3e81-95cb-9f55-30b6" primary="false" name="Has_Weapon_Long_Range"/>
+            <categoryLink targetId="d57e-2964-275e-fb86" id="37e8-a4bc-b328-3733" primary="false" name="Has_Weapon_Melee_Range"/>
+          </categoryLinks>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Cosmic Knights" hidden="false" id="12v6-bop7-9vdi-sccc">
+      <categoryLinks>
+        <categoryLink targetId="f590-23d3-d94e-c23e" id="im4y-ao2v-dpqp-3ym0" primary="true" name="Cavalry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="uzbi-04u7-zx3y-ab1s" primary="false" name="Troop"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="b7e5-d3a1-6a7e-4c44" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="29f9-e826-e482-a784" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Cosmic Knights" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="huhi-90vs-vk4j-kpn3">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Calvary</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">2</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">12</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">4</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">8&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="f779-e17c-53c9-dafc">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="8fda-1e68-7a93-4353">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="Lance" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="n510-3x9d-d46y-jne3">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">4</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">First Strike, Block 1, Defend 1 (Max 2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="g17l-sw2s-738w-4ypw" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="543d-ed9c-3006-4e35" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Defenders" hidden="false" id="lc31-oe3q-m6an-0xo6">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="5s41-6cbk-cz61-0pmi" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="siat-i2pd-iira-yrdp" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="0604-b0b8-57fe-ccfa" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="dd5e-e817-9dc6-e1a3" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="a3b1-621b-b1f9-437f" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Defenders" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="4gpu-fgcz-djs0-hudu">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">3</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">10</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">5</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">5&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="c35f-575e-1fa5-c17a">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 5&quot;; Hunker 12</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="8398-9ab6-844d-869e">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Heavy Maul" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="8y6h-s2vu-c0fg-7q2d">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">4</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1, Defend 1 (Max 3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="sk1q-neib-3420-5hsj" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="e205-a16f-0d3f-e267" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Destroyer Tank" hidden="false" id="idk3-njal-vdke-jwi0">
+      <categoryLinks>
+        <categoryLink targetId="a7ea-223a-285f-bcb7" id="xvq2-g66g-9ban-gijo" primary="true" name="War Machine"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="klpf-wlx3-h4jr-utx4" primary="false" name="Troop"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="90ce-37eb-77d5-08ef" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="6d89-53bb-09b9-9feb" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="7aad-6d81-6539-b55f" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="6672-ce92-7268-ca0e" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Destroyer Tank" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="5yae-yok5-6zeh-32d2">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">War Machine</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">25</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">3</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">8&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="1bc8-fdff-dfcf-7686">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 4&quot;; Hunker 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="778b-4722-8c4e-cf17">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="Doom Cannon" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="0287-6is9-xgep-tna6">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1, Armor Pen., Weapon Platform</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ramming Speed" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="h0ua-ysfu-q2oc-sffy">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">First Strike, Block 2, Scramble 1, Self Destruct 5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="ylx6-y44q-7icq-pket" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="4c18-0d8c-d81d-5014" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Devastators" hidden="false" id="2egv-3hca-l7ci-y0dw">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="sfsx-mxq7-fbn0-a58p" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="tyiu-5v5o-d1tw-av06" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="f901-2478-7704-1740" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="be5a-ea4a-f99d-9e4a" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="7956-58e1-76af-91b3" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="686d-a86b-da4a-3e1a" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="3fb2-0450-f0a9-c9e0" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Devastators" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="vv37-1cii-htnz-szak">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">3</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">8</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">5</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">5&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="5bda-8394-dc8d-9283">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 5&quot;; Hunker 3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="af9a-31cd-0049-84b9">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Rockets" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="j26g-trf4-8p3o-vblp">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1, Fearless 1, Fire Away 1, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Jammers" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="00j4-7s8d-udn3-ozuz">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1, Defend 2 (Max 1), Scramble 1/2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="fax6-d43v-8ixq-uyzk" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="e397-d3cd-50ec-bf54" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Dominators" hidden="false" id="cx9y-0y07-b240-hp6o">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="x4m0-jl4a-a9xq-rjjo" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="gk8r-a9y2-lic0-1bry" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="99ed-2a2e-a61f-3774" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="ba09-64f4-6842-c783" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="5856-f816-da23-761e" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Dominators" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="8fls-1b84-qzmp-ddn4">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">3</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">10</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">5</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="9557-96e4-475f-4208">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 5&quot;; Hunker 4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="91e8-5195-62d1-0920">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Force Weapons" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="exab-tdmj-shi6-axpq">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1, Scramble 1, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="nr0k-h552-ijbf-h5hw" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="0487-b186-655e-598c" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Excreter Beast" hidden="false" id="66h1-ka8v-j3e6-ak8s">
+      <categoryLinks>
+        <categoryLink targetId="c89d-8316-4a17-d462" id="e2x9-sd06-7fvs-vuq4" primary="true" name="Beast"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="x520-wb5m-8ttw-wh7x" primary="false" name="Troop"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="529f-6a1b-76d4-8036" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="a478-e9d6-24ad-76b3" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="7884-0e4e-c75a-0233" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Excreter Beast" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="p3gs-itfc-0usg-2r70">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Beast</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">30</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">8&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="3cf9-0201-4ea1-b9ae">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="c4e0-0fdc-ae63-7e3e">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="Plasmid Belch" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="97oo-opak-b0k3-7l1m">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">4</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">4</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 2, Fearless 1, Fire Away 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Smashing Bulk" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="z0oj-haxz-jt8d-545i">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">4</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">3</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 2, Defend 1 (Max 1), Unstoppable 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="pok9-db1r-vg75-859g" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="fd26-9c4b-c6cb-ed3f" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Flesh Grinder" hidden="false" id="1hoa-vimk-8d6v-eqgs">
+      <categoryLinks>
+        <categoryLink targetId="a7ea-223a-285f-bcb7" id="4g36-205d-t2lc-juhe" primary="true" name="War Machine"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="l8f7-dfk9-jx9v-3ila" primary="false" name="Troop"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="a425-25fc-7472-f643" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="0380-915e-a37f-7375" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Flesh Grinder" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="br8q-ba5a-pli8-2y3g">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">War Machine</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">28</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">4</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">9&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="f6fd-f34c-5fce-8855">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="f2c4-a4be-f5c7-89e2">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="Flesh Grinder" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="tv1t-dits-c7ar-unqw">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 6&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">8</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="o343-z67x-2rcj-mhs0" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="41ce-a107-c735-66a8" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Gangers" hidden="false" id="4457-0321-80c9-a122" subType="unit-group">
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Gangers" hidden="false" id="iolo-pyli-a2gl-zczc">
+          <categoryLinks>
+            <categoryLink name="Infantry" hidden="false" id="6w6p-1pnz-jtb0-2xes" targetId="a210-b2af-e2d1-f2cd" primary="true"/>
+            <categoryLink name="Troop" hidden="false" id="51im-iawe-e92u-wurk" targetId="a7d0-8a5e-a70f-5b30" primary="false"/>
+            <categoryLink targetId="33e0-fc9d-8e13-6fdb" id="f122-8f0e-67d5-f021" primary="false" name="Has_Multiple_Units"/>
+            <categoryLink targetId="062b-1e05-912c-5a20" id="caf6-6d8d-68c1-9147" primary="false" name="Has_Operative"/>
+            <categoryLink targetId="d57e-2964-275e-fb86" id="63cf-a83d-2f81-50c1" primary="false" name="Has_Weapon_Melee_Range"/>
+            <categoryLink targetId="cde2-0041-80d1-9b5d" id="7ca4-bfe8-3545-9807" primary="false" name="Has_Weapon_Short_Range"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0.5"/>
+            <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Gangers" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="pe7b-dxdo-utq6-plcf">
+              <characteristics>
+                <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+                <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">6</characteristic>
+                <characteristic name="Health" typeId="5de0-480f-5848-34c3">2</characteristic>
+                <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+                <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+                <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="ea79-1aac-4042-da19">
+              <characteristics>
+                <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 5&quot;; Hunker 4</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="190f-957d-b554-d393">
+              <characteristics>
+                <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Boomers" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="zl48-ik97-vxu6-j8fe">
+              <characteristics>
+                <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+                <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+                <characteristic name="Damage" typeId="eada-5162-603e-fdb1">1</characteristic>
+                <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1/3, Gunline</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Blades" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="5dxo-tmgh-ifip-0yfj">
+              <characteristics>
+                <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+                <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+                <characteristic name="Damage" typeId="eada-5162-603e-fdb1">1</characteristic>
+                <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1/2, Defend 3 (Max 1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Upgrades" hidden="false" id="7wqt-g2u0-n96l-nckm" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+            <entryLink import="true" name="Manifestations" hidden="false" id="5bec-dfd9-d7eb-f4a6" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e3cf-ae5b-46cd-04c5-min"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e3cf-ae5b-46cd-04c5-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="e9f9-39cd-ad3e-ef6d" primary="false" name="Troop"/>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="b786-f502-adf2-4cfa" primary="true" name="Infantry"/>
+        <categoryLink targetId="33e0-fc9d-8e13-6fdb" id="05d7-8bad-1d39-27d9" primary="false" name="Has_Multiple_Units"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="6329-3748-26da-1585" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="21aa-be36-1259-5cb7" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="6aa3-9088-8598-8e1f" primary="false" name="Has_Weapon_Short_Range"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Gatling Tank" hidden="false" id="j1a1-48cq-0sqz-6gx2">
+      <categoryLinks>
+        <categoryLink targetId="a7ea-223a-285f-bcb7" id="q1b9-22sy-f9cx-bwdi" primary="true" name="War Machine"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="m3k5-e7y8-3bqa-bafy" primary="false" name="Troop"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="8d11-fed1-1b5f-ef54" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="0847-29c2-af83-7bae" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="cb39-0ee0-c247-dc98" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Gatling Tank" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="xele-vc92-49ce-33az">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">War Machine</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">25</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">4</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">8&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="9f4f-bcb0-f808-4d7b">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="6238-60ce-f42c-29f8">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="Gatling Cannon" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="mmmr-1cv1-4ast-j33v">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">6</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 3, Weapon Platform</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ramming Speed" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="l5wd-afvf-appw-eqtj">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">First Strike, Block 2, Scramble 1, Self Destruct 5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="958l-2uhr-87ww-iprx" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="9c4e-9a57-a26b-de6c" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Horde" hidden="false" id="41f2-e806-a6ba-0312" subType="unit-group">
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Horde" hidden="false" id="2l6y-z2cj-gpz0-s3vo">
+          <categoryLinks>
+            <categoryLink name="Infantry" hidden="false" id="mbr2-o79y-c94y-cv2p" targetId="a210-b2af-e2d1-f2cd" primary="true"/>
+            <categoryLink name="Troop" hidden="false" id="3dv9-u041-uv9s-ohab" targetId="a7d0-8a5e-a70f-5b30" primary="false"/>
+            <categoryLink targetId="33e0-fc9d-8e13-6fdb" id="ab2d-3a78-3f53-e336" primary="false" name="Has_Multiple_Units"/>
+            <categoryLink targetId="062b-1e05-912c-5a20" id="2d9f-d759-4534-56fa" primary="false" name="Has_Operative"/>
+            <categoryLink targetId="d57e-2964-275e-fb86" id="861f-12c0-dd7d-8932" primary="false" name="Has_Weapon_Melee_Range"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0.5"/>
+            <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Horde" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="l02j-abs5-iqdx-qquq">
+              <characteristics>
+                <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+                <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">8</characteristic>
+                <characteristic name="Health" typeId="5de0-480f-5848-34c3">1</characteristic>
+                <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+                <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+                <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">7&quot;</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="56ed-722e-97e8-b950">
+              <characteristics>
+                <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 7&quot;; Hunker 2</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="4cd4-13dc-4ffc-3d7e">
+              <characteristics>
+                <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Claws" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="tzab-stbi-mla1-buwy">
+              <characteristics>
+                <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+                <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+                <characteristic name="Damage" typeId="eada-5162-603e-fdb1">1</characteristic>
+                <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1/4, Defend 2 (Max 3)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Upgrades" hidden="false" id="iuk0-x0gs-u7pv-n9x0" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+            <entryLink import="true" name="Manifestations" hidden="false" id="9b51-8487-060b-6027" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="8ffd-111f-2d3d-ed0f-min"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="8ffd-111f-2d3d-ed0f-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="33e0-fc9d-8e13-6fdb" id="8aed-2659-59f8-771c" primary="false" name="Has_Multiple_Units"/>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="71ea-4046-6e9d-3ee9" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="41a5-8fd1-358c-c72f" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="d504-f6ec-64b2-172a" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="6a27-3e6a-430b-20a9" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Immolator Tank" hidden="false" id="m2el-qh4z-5ogs-8lcx">
+      <categoryLinks>
+        <categoryLink targetId="a7ea-223a-285f-bcb7" id="zssb-hyqr-b01l-n13a" primary="true" name="War Machine"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="t1p7-r3wz-daej-kdrs" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="c2cb-d962-ff6e-c495" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="ec29-14cf-31b9-bcc3" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="6cc1-f9a6-cdd5-1d35" primary="false" name="Has_Weapon_Short_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="65e3-8886-8091-e320" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Immolator Tank" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="ymcl-9y86-8wyz-nge0">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">War Machine</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">28</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">4</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">8&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="a442-6893-6754-0c57">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="ff09-d585-9d30-bc88">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="Flame Thrower" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="ot7k-97z3-govc-e3a7">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">10</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">1</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 8, Armor Pen., Weapon Platform</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Ramming Speed" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="rxh6-t0t4-k9ag-z5nj">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">First Strike, Block 2, Scramble 1, Self Destruct 5</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="k13u-xk9g-5g0z-t169" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="0c9c-a587-c261-7970" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Martyr" hidden="false" id="00ec-f01c-487a-51bd" subType="unit-group">
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Martyrs" hidden="false" id="oaal-kcj5-e2nh-9t3p">
+          <categoryLinks>
+            <categoryLink name="Infantry" hidden="false" id="gbxq-4qah-zywl-adun" targetId="a210-b2af-e2d1-f2cd" primary="true"/>
+            <categoryLink name="Troop" hidden="false" id="qmh5-axc6-brv6-q4wx" targetId="a7d0-8a5e-a70f-5b30" primary="false"/>
+            <categoryLink targetId="33e0-fc9d-8e13-6fdb" id="77b7-f1b5-afeb-dece" primary="false" name="Has_Multiple_Units"/>
+            <categoryLink targetId="d57e-2964-275e-fb86" id="a3e0-d9e9-439a-d675" primary="false" name="Has_Weapon_Melee_Range"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0.33"/>
+            <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Martyrs" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="c7br-x4gf-pjqn-lg2s">
+              <characteristics>
+                <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+                <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+                <characteristic name="Health" typeId="5de0-480f-5848-34c3">2</characteristic>
+                <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+                <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+                <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="8e03-7502-ad40-5732">
+              <characteristics>
+                <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 4</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="a870-0eb1-ba57-44a3">
+              <characteristics>
+                <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+              </characteristics>
+            </profile>
+            <profile name="Self Destruct" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="9xhq-dhm0-pqkd-xvd0">
+              <characteristics>
+                <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+                <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+                <characteristic name="Damage" typeId="eada-5162-603e-fdb1">4</characteristic>
+                <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">First Strike, Block 3, Self Destruct 5</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Upgrades" hidden="false" id="yl0n-v73f-p10t-nafb" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+            <entryLink import="true" name="Manifestations" hidden="false" id="873e-e9ab-a43f-8576" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="a653-080d-335c-9813-min"/>
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="a653-080d-335c-9813-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="3479-928a-ec95-2d7a" primary="false" name="Troop"/>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="4934-0942-69ef-0ab8" primary="true" name="Infantry"/>
+        <categoryLink targetId="33e0-fc9d-8e13-6fdb" id="ef09-95f2-0ba2-e02f" primary="false" name="Has_Multiple_Units"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="d06d-7cac-bfc0-d935" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+        <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Mecha Jaeger" hidden="false" id="g9cf-27r5-a2lk-4vlu">
+      <categoryLinks>
+        <categoryLink targetId="a7ea-223a-285f-bcb7" id="9h2d-dy1k-j1k3-67iz" primary="true" name="War Machine"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="9ci7-qv6h-tlsm-6v89" primary="false" name="Troop"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="c293-b9ad-ae5a-8c79" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="7fe8-940d-f098-cac2" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="df3c-3236-6325-338b" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Mecha Jaeger" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="1fxz-r9dz-cxa1-no7k">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">War Machine</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">24</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">3</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">8&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="b5ab-b344-d4d3-d28f">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 5&quot;; Hunker 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="e98b-1de1-4d26-d26a">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="Rail-Gun" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="3hs1-sp7z-46et-xlk6">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">4</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">3</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 2, Gunline, Weapon Platform</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Mech Blade" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="scni-1adl-xl2v-2bo1">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">4</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 2, Defend 1 (Max 1), Scramble 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="4afy-5s3u-fgtx-gdsi" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="d839-3b75-6e57-9b3d" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Mobile Fortress" hidden="false" id="l8j0-jjq4-8d8o-09zb">
+      <categoryLinks>
+        <categoryLink targetId="a7ea-223a-285f-bcb7" id="jpaq-lvo0-b8k0-eqzr" primary="true" name="War Machine"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="24zk-l1en-ivm5-kjjm" primary="false" name="Troop"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="d0bb-646a-2f94-61b1" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="de67-653c-3b77-7c07" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="141e-681c-28c3-962c" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="90d3-eba5-7b71-2a08" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="2"/>
+      </costs>
+      <profiles>
+        <profile name="Mobile Fortress" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="nj1k-9bcn-wq37-ql9i">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">War Machine</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">3</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">10</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">3</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">8&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="6ed1-3a6d-bf2a-9f9a">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 9&quot;; Hunker 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="9104-77c4-bd19-77a2">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="World Shakers" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="e4ha-31gt-8ckp-6cvr">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1, Scramble 1/2, Armor Pen., Weapon Platform</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Titanic Smash" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="keed-upnx-l8uq-r2pa">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 6&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">3</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1, Defend 1 (Max 2), Scramble 1, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="aayd-ilbt-geyl-tp66" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="6ac4-e431-80a8-434d" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Obliterators" hidden="false" id="s0xz-mkzf-uqs1-zxb2">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="q3wv-pks9-6skm-7dc1" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="k0tn-9l19-but4-5crl" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="881d-e3be-6d8b-fd87" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="2155-ee4c-73ef-cfca" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="574a-d2a0-fc0f-9c66" primary="false" name="Has_Weapon_Short_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="52bb-73d0-4f03-637d" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Obliterators" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="4mpx-892v-enan-9cyk">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">5</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">6</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="a65a-4338-1fb1-9575">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="34f1-00f9-1787-e64a">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Obliterators" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="bcdm-988r-vux0-dbax">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">4</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1, Scramble 1/2, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Combat Knives" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="71xz-13cd-l0fr-kjzy">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1, Defend 1 (Max 1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="lqzs-nzvg-q9vj-g6hw" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="fcdb-a53d-0327-879c" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ogres" hidden="false" id="fs5e-86ow-lglr-3yww">
+      <categoryLinks>
+        <categoryLink targetId="c89d-8316-4a17-d462" id="hoob-wr8z-dx4l-z3wf" primary="true" name="Beast"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="h0vo-59ty-wo41-gdaa" primary="false" name="Troop"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="7d24-6c52-eefc-83ae" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Ogres" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="jd8i-lhgt-ffbi-m6bb">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Beast</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">2</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">18</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">7&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="869d-2f77-aa4f-f84b">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="8536-b664-cf97-e8a4">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="Crushing Strength" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="qt8s-qwal-9nq1-5bex">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">5</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">4</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 4, Defend 2 (Max 2), Unstoppable 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="5rsn-7c80-y9ol-t8xb" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="3126-e910-8be4-4fb3" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Power Marines" hidden="false" id="l620-63o3-k77l-wn2n">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="4ns0-uuzx-lcr4-h6lt" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="5ofq-8s8l-y3ma-45x9" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="6196-2aa5-9c3a-a363" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="0478-a9c0-998b-fff5" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="61e6-4103-45b7-c7be" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="7821-d43c-5cc8-9f5b" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Power Marines" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="1iml-5wg9-e4iw-a3y7">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">3</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">7</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">5</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">5&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="576e-05dd-2e3f-abc2">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 5&quot;; Hunker 3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="90e8-9eae-7241-3f8c">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Heavy Rifle" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="odd6-h5r9-8z6s-rxfl">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">3</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1, Fire Away 2, Gunline</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gauntlet" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="3tcl-dkpy-gish-2u27">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1, Defend 1 (Max 2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="33s6-5j3a-6a3b-6xas" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="1389-aafd-c01c-22aa" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Raiders" hidden="false" id="t00a-t6jk-iisv-9r7b">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="gfz7-ibgg-lujd-8yt1" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="8lfk-huui-y44o-8czw" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="0526-6894-dc53-5d12" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="9676-feba-dddb-72ad" primary="false" name="Has_Weapon_Short_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="3260-1cc7-14f0-513f" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Raiders" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="d5ix-bm8t-22h8-e54l">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">8</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">4</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="de96-00a7-d00c-d3d1">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="a55f-769e-8e1f-5498">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Scatter Cannon" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="ul49-cqzi-b47p-8qxu">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1, Gunline</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bayonet" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="7uwk-4usz-h7q2-49sq">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1/2, Defend 1 (Max 2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="eb69-omxa-5m9t-wezs" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="ee6b-15ca-e938-5839" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Ravenous Beast" hidden="false" id="m1xz-gg90-6iaw-i6y6">
+      <categoryLinks>
+        <categoryLink targetId="c89d-8316-4a17-d462" id="h4oh-flie-q0s9-j314" primary="true" name="Beast"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="94f3-ee4z-3zxm-0exs" primary="false" name="Troop"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="befd-2f40-0ea4-3624" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Ravenous Beast" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="azw0-7yo9-4hxe-3hzg">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Beast</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">37</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">9&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="a597-a819-00cf-1588">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="f3ba-b666-0244-a3bc">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="Claws &amp; Teeth" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="vzu5-s34k-5w08-ple4">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 6&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">12</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 6, Defend 2 (Max 2), Unstoppable 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="zxw6-6dli-er21-asvq" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="a6b0-241f-3c7b-3cf3" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Razor Beast" hidden="false" id="o0u0-zixz-tl7e-pp40">
+      <categoryLinks>
+        <categoryLink targetId="c89d-8316-4a17-d462" id="069v-xglw-8ktt-rde1" primary="true" name="Beast"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="l1mr-gndo-5wu3-w1bp" primary="false" name="Troop"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="d8da-2f11-f124-4ce5" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Razor Beast" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="kl6i-hfoq-mwyy-ens5">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Beast</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">39</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">9&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="5488-e79a-8f80-761a">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="e82c-95fd-9cf8-0d9f">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101"/>
+          </characteristics>
+        </profile>
+        <profile name="Razor Talons" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="36wt-udl2-ykir-cn19">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">5</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 5, Defend 1 (Max 2), Unstoppable 2, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="wbxj-4f07-8j5o-xoh1" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="a661-85b3-f7ae-c7fb" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Reavers" hidden="false" id="tbym-246r-k0wj-az1u">
+      <categoryLinks>
+        <categoryLink targetId="f590-23d3-d94e-c23e" id="979k-o367-nmk3-xiyn" primary="true" name="Cavalry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="9swx-18j8-45sg-1ih3" primary="false" name="Troop"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="01e7-03c5-4660-d119" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="f1f3-d208-8176-700a" primary="false" name="Has_Weapon_Short_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="82fb-58ba-fa85-4405" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Reavers" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="hfgj-uh3o-kf0q-fxyn">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Calvary</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">3</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">8</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">5</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">9&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="8f3b-8fa3-1907-90ac">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 2</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="b564-dcfe-ccb6-ca95">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Elusive 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Harrier Pistol" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="tis2-dr1y-kcc6-u5ud">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1, Gunline</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Cavalry Saber" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="jf7q-yqpc-7106-of3n">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">First Strike, Block 1, Defend 2 (Max 2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="j9tc-f9vq-jtwl-2puh" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="0044-226c-807c-5afe" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Riflemen" hidden="false" id="5t0r-sumd-ahvd-uu7r">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="jaxd-up3y-anrd-szq4" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="n75o-rsem-t2wc-azzb" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="cbdb-05db-e94f-8bc0" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="3fb5-4af7-23ba-7c2b" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="30be-ba63-10e3-2802" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Riflemen" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="p67j-vqqi-fijh-46b4">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">6</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">3</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="7632-aeec-0515-1b9a">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="049c-cecd-19cb-4371">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Battle Rifle" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="e0xw-9eub-zegr-e2l6">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1, Fire Away 1, Gunline</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Bayonet" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="5qvq-e1qa-g6bq-bz5n">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1/2, Defend 1 (Max 2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="9s2e-reeo-aou7-zhnn" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="d9f7-0c2d-268d-656d" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Rift War Veterans" hidden="false" id="k9db-xn05-qrg6-86il">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="tlzp-2soa-d434-ysq8" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="fspf-812k-da65-iabv" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="44a5-f0de-7e16-05b9" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="55c1-f640-b749-07f2" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="f3a1-5508-cbf6-c351" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="abc8-8e0c-fd50-f95e" primary="false" name="Has_Weapon_Short_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Rift War Veterans" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="qklf-w8ax-s55m-bejg">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">3</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">9</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">5</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">5&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="1ca2-ac20-66d1-1c54">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 5&quot;; Hunker 3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="b73e-aba2-b194-82b2">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Blaster Pistols" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="8wdj-wng1-o4o2-8z2l">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;/Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">4</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 2, Block 2, Gunline</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Breacher Charges" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="mtuo-2i9g-dowi-mbiw">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1, Scramble 1/2, Unstoppable 10, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="disl-u0t8-5pf0-xcfx" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="2540-ca4f-cd6d-b6ff" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Saboteurs" hidden="false" id="7140-f1dc-926b-bcd1" subType="unit-group">
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Saboteurs" hidden="false" id="itxs-frvv-lz6y-erdj">
+          <categoryLinks>
+            <categoryLink name="Infantry" hidden="false" id="xk4a-w05d-gf08-wcgt" targetId="a210-b2af-e2d1-f2cd" primary="true"/>
+            <categoryLink name="Troop" hidden="false" id="z6vy-dotm-18th-cp4c" targetId="a7d0-8a5e-a70f-5b30" primary="false"/>
+            <categoryLink targetId="33e0-fc9d-8e13-6fdb" id="7f8b-601d-d8ac-09b6" primary="false" name="Has_Multiple_Units"/>
+            <categoryLink targetId="062b-1e05-912c-5a20" id="5a44-c6cf-8dd3-dd43" primary="false" name="Has_Operative"/>
+            <categoryLink targetId="d57e-2964-275e-fb86" id="3217-0c6e-5052-78c7" primary="false" name="Has_Weapon_Melee_Range"/>
+            <categoryLink targetId="cde2-0041-80d1-9b5d" id="028e-85d3-edb7-3917" primary="false" name="Has_Weapon_Short_Range"/>
+            <categoryLink targetId="f8b6-8fe6-9343-2c15" id="8832-c9b5-8580-4382" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0.5"/>
+            <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Saboteurs" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="ki41-1c3m-omfc-ndmg">
+              <characteristics>
+                <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+                <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">5</characteristic>
+                <characteristic name="Health" typeId="5de0-480f-5848-34c3">2</characteristic>
+                <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+                <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+                <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="fcdd-306c-8537-a5df">
+              <characteristics>
+                <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 3</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="3af5-e4b4-85c9-b577">
+              <characteristics>
+                <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Grenades" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="dd2c-lwgb-1pql-0fck">
+              <characteristics>
+                <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+                <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+                <characteristic name="Damage" typeId="eada-5162-603e-fdb1">4</characteristic>
+                <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1/3</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Fists" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="n5g5-e2mr-ohfj-h3n7">
+              <characteristics>
+                <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+                <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+                <characteristic name="Damage" typeId="eada-5162-603e-fdb1">1</characteristic>
+                <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1/3, Defend 2 (Max 1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Upgrades" hidden="false" id="03e9-g8ur-r6k1-7d3x" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+            <entryLink import="true" name="Manifestations" hidden="false" id="5548-4dfc-00f5-f26c" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0b97-bc7f-5689-9829-min"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="0b97-bc7f-5689-9829-max"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="1117-67b6-3369-11a9" primary="false" name="Troop"/>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="68f7-7f16-7712-f6c2" primary="true" name="Infantry"/>
+        <categoryLink targetId="33e0-fc9d-8e13-6fdb" id="9ec1-3701-6a2c-a79e" primary="false" name="Has_Multiple_Units"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="b3e6-e236-5859-7694" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="5726-a4e5-ca39-4f4b" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="4105-2122-c667-88f1" primary="false" name="Has_Weapon_Short_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="c5a3-9aa0-9e74-9612" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Scorchers" hidden="false" id="8yqk-ebwv-l1hx-zgde">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="pfpk-c7i4-y6wk-ybth" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="25g8-lp89-mtyf-9ncn" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="c181-d382-dfbd-8a74" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="16a7-cb57-24f3-2780" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="25f3-350b-29e3-d23c" primary="false" name="Has_Weapon_Short_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="ff67-887c-247f-39e9" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Scorchers" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="gguf-lsda-6uls-nmj0">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">3</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">10</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">5</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">5&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="adff-b587-ec6f-b124">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 5&quot;; Hunker 3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="92fb-324d-0ab1-e826">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Incinerator" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="8n27-iocu-4nbm-ycjp">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">5</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 2, Gunline</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gauntlet" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="0o4g-3fnv-6o3l-kttd">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1, Defend 1 (Max 2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="9jtd-s3ug-hi09-6fv7" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="6025-8c41-643c-367c" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Shield Wardens" hidden="false" id="8650-c43a-esjp-blp5">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="i85o-qd5l-57pn-immd" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="q3f3-fbnd-aarx-amdz" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="8c2f-c920-7111-1465" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="db3a-2198-a90e-0740" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="c836-651b-a52e-41e8" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Shield Wardens" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="kofh-6zmt-pud8-afor">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">8</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">4</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">4</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="e7b6-76ae-f33d-01a7">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 4&quot;; Hunker 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="a093-4e17-5de9-d256">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Gladius" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="wzoc-x31g-qqyl-9qap">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1, Defend 2 (Max 3)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="ush0-fo22-6zgn-6aen" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="e0a7-7365-e7be-c69d" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Shock Cavalry" hidden="false" id="1bfk-tlq5-24ro-vc13">
+      <categoryLinks>
+        <categoryLink targetId="f590-23d3-d94e-c23e" id="6qkb-7uk3-wxbu-ju4v" primary="true" name="Cavalry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="0p9i-lopi-71w6-l7b6" primary="false" name="Troop"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="08a8-dcd2-c959-fe27" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Shock Cavalry" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="3xgg-05hq-u1il-0adm">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Calvary</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">4</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">5</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">10&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="2ef7-b791-1e8d-7914">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="5ee1-8806-82b1-b7ca">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Elusive 4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sabers" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="jpbj-e8r5-j2f7-rhxp">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">First Strike, Block 1, Defend 2 (Max 2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="4l2o-jw4u-fvcz-qa73" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="de35-2862-42c4-9af8" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Siege Breakers" hidden="false" id="08sj-olvr-wt3c-knum">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="36nu-myqb-sl5i-e2q8" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="s1r1-r52q-wcqz-g9wv" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="9213-2c49-465d-5b01" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="80cc-a9e7-313e-ee4a" id="c64f-c22d-0d33-4533" primary="false" name="Has_Armor"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="bb58-21ca-0df0-60fe" primary="false" name="Has_Weapon_Short_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="3f6a-8eac-1002-50e8" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="8974-5d75-209d-437c" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Siege Breakers" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="70gg-6lr9-be7j-7yib">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">3</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">9</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">4</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">M</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">5&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="160f-e799-22d5-4e33">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 5&quot;; Hunker 3</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="e95b-0663-fa3e-c8b9">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Breaker Cannon" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="5941-oo5r-vesx-ahwd">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1, Scramble 1, Armor Pen.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Power Gauntlets" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="gxuk-iqll-mdzt-yytr">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1, Defend 2 (Max 1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="lf8j-az4y-13hn-2kze" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="20cf-af0f-34c6-f2f1" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Sniper" hidden="false" id="ofp6-gidi-d0u2-n40v">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="7jcg-7gya-ldbu-73wg" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="uhtl-gt5s-z7mz-05r7" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="28a3-2f80-3de0-13e2" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="972a-088e-c75d-5fd9" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="f378-2667-52a9-61d9" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="8888-ba77-1665-4974" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Sniper" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="sd5h-y9de-pngt-mcwt">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">18</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">7&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="5017-c30b-228c-15d0">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 7&quot;; Hunker 10</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="d7a5-b9c3-0d23-971c">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative; Elusive 6</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Sniper Rifle" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="2xgo-guu1-0tw4-fxi3">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">5</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">First Strike, Fire Away 1, Suppression 4</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Survival Knife" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="j1cb-py9m-3tbn-2n0m">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">4</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 3, Defend 1 (Max 1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="qkaz-9hgc-3yym-2znk" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="87a4-8e61-916e-1a26" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Special Ops" hidden="false" id="fdd4-m3ik-qfa1-zjdp">
+      <categoryLinks>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="9vx6-k1pw-7org-xbf5" primary="true" name="Infantry"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="2fs9-fa36-u99n-bfbb" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="88df-f81b-5a49-a516" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="a37c-7bae-6eea-bfbf" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="abaf-64e7-21e8-af30" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Special Ops" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="wtfm-h2pr-37iw-kyf5">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">4</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">4</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">6&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="36dc-808f-45c0-3a03">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 5</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="0721-b0cd-a243-d66f">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hunter Killers" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="s2ot-x9zn-uvfq-25c1">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">3</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 2, Scramble 1/2, Fearless 1, Gunline</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Energy Blades" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="42bg-cwg0-jcdg-9169">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 5&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">3</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 2, Defend 2 (Max 2), Scramble 1/2, Unstoppable 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="d0fp-ist4-03oz-z27d" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="9715-44c5-0c38-a304" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Tank Hunters" hidden="false" id="a128-58fa-cdf4-c070" subType="unit-group">
+      <categoryLinks>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="c0b8-a228-ebf6-a27b" primary="false" name="Troop"/>
+        <categoryLink targetId="a210-b2af-e2d1-f2cd" id="d5e1-aed3-e73a-ef51" primary="true" name="Infantry"/>
+        <categoryLink targetId="33e0-fc9d-8e13-6fdb" id="2739-3adb-d834-12c3" primary="false" name="Has_Multiple_Units"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="92af-3d8e-0054-01dc" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="83c6-28f3-728a-7b48" id="8315-00c5-9b52-8b31" primary="false" name="Has_Weapon_Long_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="a3f8-64aa-03c4-ad11" primary="false" name="Has_Weapon_Melee_Range"/>
+        <categoryLink targetId="f8b6-8fe6-9343-2c15" id="b60f-1106-189e-a8bc" primary="false" name="Has_Weapon_Ranged_With_4_Plus_Damage"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry type="unit" import="true" name="Tank Hunters" hidden="false" id="1475-537e-8529-80e8">
+          <categoryLinks>
+            <categoryLink name="Infantry" hidden="false" id="facd-6141-13e0-2212" targetId="a210-b2af-e2d1-f2cd" primary="true"/>
+            <categoryLink name="Troop" hidden="false" id="fdb5-70f3-0e9d-e178" targetId="a7d0-8a5e-a70f-5b30" primary="false"/>
+            <categoryLink name="Has_Multiple_Units" hidden="false" id="a610-0f0a-84d7-1042" targetId="33e0-fc9d-8e13-6fdb" primary="false"/>
+            <categoryLink targetId="062b-1e05-912c-5a20" id="f1f2-f0f6-2c45-1ec5" primary="false" name="Has_Operative"/>
+            <categoryLink targetId="83c6-28f3-728a-7b48" id="2f1d-d7ce-4e0e-cd4f" primary="false" name="Has_Weapon_Long_Range"/>
+            <categoryLink targetId="d57e-2964-275e-fb86" id="6332-0316-8cb8-ec06" primary="false" name="Has_Weapon_Melee_Range"/>
+          </categoryLinks>
+          <costs>
+            <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0.5"/>
+            <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="0"/>
+          </costs>
+          <profiles>
+            <profile name="Tank Hunters" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="7af9-1ab0-e5b1-9072">
+              <characteristics>
+                <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Infantry</characteristic>
+                <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">2</characteristic>
+                <characteristic name="Health" typeId="5de0-480f-5848-34c3">4</characteristic>
+                <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+                <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">S</characteristic>
+                <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">5&quot;</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="2ad7-1d40-00e7-7969">
+              <characteristics>
+                <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 5&quot;; Hunker 3</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="100d-e03a-62cf-f830">
+              <characteristics>
+                <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Recoilless Rifle" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="2d0b-7a88-e408-8b20">
+              <characteristics>
+                <characteristic name="Range" typeId="7524-d7cf-9514-9105">Long Range</characteristic>
+                <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">1</characteristic>
+                <characteristic name="Damage" typeId="eada-5162-603e-fdb1">4</characteristic>
+                <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 1, Scramble 1/2, Fire Away 1, Armor Pen.</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Rifle Stocks" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="d2dd-d6e6-025c-0f8d">
+              <characteristics>
+                <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+                <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">2</characteristic>
+                <characteristic name="Damage" typeId="eada-5162-603e-fdb1">1</characteristic>
+                <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 1/2, Defend 2 (Max 1)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Upgrades" hidden="false" id="7417-14f4-c08d-e7dc" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+            <entryLink import="true" name="Manifestations" hidden="false" id="c10a-1605-e9a7-4e3e" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d952-2c1e-4574-c53f"/>
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="75c7-4678-cd08-7fe4"/>
+          </constraints>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Toxic Bio-Weapon" hidden="false" id="jero-wvnd-ukkp-g0ar">
+      <categoryLinks>
+        <categoryLink targetId="c89d-8316-4a17-d462" id="d687-l0y6-7f0x-svy1" primary="true" name="Beast"/>
+        <categoryLink targetId="a7d0-8a5e-a70f-5b30" id="dpog-sgq9-p63d-m3lo" primary="false" name="Troop"/>
+        <categoryLink targetId="062b-1e05-912c-5a20" id="672c-dbb8-36bb-1fc5" primary="false" name="Has_Operative"/>
+        <categoryLink targetId="cde2-0041-80d1-9b5d" id="4da7-5928-d883-e73a" primary="false" name="Has_Weapon_Short_Range"/>
+        <categoryLink targetId="d57e-2964-275e-fb86" id="df4d-455e-184d-141c" primary="false" name="Has_Weapon_Melee_Range"/>
+      </categoryLinks>
+      <costs>
+        <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="1"/>
+      </costs>
+      <profiles>
+        <profile name="Toxic Bio-Weapon" typeId="e777-616a-7cdc-1c0e" typeName="Archetype" hidden="false" id="d2ig-v8p0-h1dr-oo57">
+          <characteristics>
+            <characteristic name="Type" typeId="c2cf-ac60-b7cc-155e">Beast</characteristic>
+            <characteristic name="Models" typeId="fe02-ebcf-e11b-5877">1</characteristic>
+            <characteristic name="Health" typeId="5de0-480f-5848-34c3">38</characteristic>
+            <characteristic name="Armor" typeId="1f9a-2704-252d-2acf">-</characteristic>
+            <characteristic name="Size" typeId="5aa3-a9ea-9e74-d11b">L</characteristic>
+            <characteristic name="Move" typeId="d46c-f7fa-2242-82ef">8&quot;</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Actions" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="b76c-a6f8-3fdb-4cc7">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Run 6&quot;; Hunker 1</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Abilities" typeId="4f12-15ce-95a0-4271" typeName="Special Rules" hidden="false" id="9fe3-d608-abc4-6eda">
+          <characteristics>
+            <characteristic name="⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀" typeId="bccc-ea95-1710-f101">Operative</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Toxic Bile" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="sz4c-6o42-tgp5-6uqt">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Short 12&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">10</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">2</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Suppression 4, Fearless 1, Gunline</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Crushing Bulk" typeId="1afa-f966-d513-1ff9" typeName="Weapons" hidden="false" id="4mml-4b11-i1zv-klef">
+          <characteristics>
+            <characteristic name="Range" typeId="7524-d7cf-9514-9105">Melee 4&quot;</characteristic>
+            <characteristic name="Attacks" typeId="ca4a-87cd-31ca-5166">4</characteristic>
+            <characteristic name="Damage" typeId="eada-5162-603e-fdb1">3</characteristic>
+            <characteristic name="Rules" typeId="1bf4-7915-1a74-2055">Block 3, Defend 1 (Max 1), Unstoppable 1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Upgrades" hidden="false" id="01n6-n7dv-ug26-znzm" type="selectionEntryGroup" targetId="5a21-b0bf-e137-0651"/>
+        <entryLink import="true" name="Manifestations" hidden="false" id="8dde-7971-7813-b8f3" type="selectionEntryGroup" targetId="9d30-c1e6-fda8-7b6d"/>
+      </entryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
