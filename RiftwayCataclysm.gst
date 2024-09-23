@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-0fce-63e8-ee69-564a" name="RiftwayCataclysm" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" hidden="true" publicationId="0b7b-3854-6d2d-933a">
+<gameSystem id="sys-0fce-63e8-ee69-564a" name="RiftwayCataclysm" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" hidden="true" publicationId="0b7b-3854-6d2d-933a">
   <costTypes>
     <costType name="Troops" id="034e-d4ad-5794-b1c7" defaultCostLimit="4" hidden="false">
       <comment>The user can configure this value while creating a list or modifying cost limits</comment>
@@ -14,7 +14,7 @@
     </costType>
   </costTypes>
   <publications>
-    <publication name="Riftway Cataclysm" id="0b7b-3854-6d2d-933a" hidden="false" publisherUrl="https://riftwaycataclysm.com/" shortName="RiftwayCataclysm" publisher="Riftway Cataclysm Core Rulebook v35"/>
+    <publication name="Riftway Cataclysm" id="0b7b-3854-6d2d-933a" hidden="false" publisherUrl="https://riftwaycataclysm.com/" shortName="RiftwayCataclysm" publisher="Riftway Cataclysm Core Rulebook v36"/>
     <publication name="RiftwayCataclysmDataFiles" id="b993-358a-c8db-bd88" hidden="false" shortName="RiftwayCataclysmDataFiles" publisherUrl="https://github.com/ctdavids/RiftwayCataclysmDataFiles"/>
   </publications>
   <profileTypes>
@@ -133,7 +133,7 @@
       <selectionEntryGroups>
         <selectionEntryGroup name="Utility Upgrades" id="63cd-8089-0e18-a977" hidden="false" collapsible="true">
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="War Paint" hidden="false" id="cb23-0f24-7b22-2ed6" sortIndex="8">
+            <selectionEntry type="upgrade" import="true" name="War Paint" hidden="false" id="cb23-0f24-7b22-2ed6" sortIndex="9">
               <costs>
                 <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0"/>
                 <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="3"/>
@@ -153,7 +153,7 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Mission Focus" hidden="false" id="7df8-a7de-b34b-4681" sortIndex="4">
+            <selectionEntry type="upgrade" import="true" name="Mission Focus" hidden="false" id="7df8-a7de-b34b-4681" sortIndex="5">
               <costs>
                 <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0"/>
                 <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="1"/>
@@ -166,7 +166,7 @@
                 </profile>
               </profiles>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Interrogator" hidden="false" id="b3b2-25de-c17a-1c0a" sortIndex="3">
+            <selectionEntry type="upgrade" import="true" name="Interrogator" hidden="false" id="b3b2-25de-c17a-1c0a" sortIndex="4">
               <costs>
                 <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0"/>
                 <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="2"/>
@@ -186,7 +186,7 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Service Drones" hidden="false" id="5bee-512d-c860-208d" sortIndex="6">
+            <selectionEntry type="upgrade" import="true" name="Service Drones" hidden="false" id="5bee-512d-c860-208d" sortIndex="7">
               <profiles>
                 <profile name="Service Drones" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="eeb1-dbba-dba9-ff58">
                   <characteristics>
@@ -211,7 +211,7 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Arcane Apprentice" hidden="false" id="752e-3631-e11e-8cfc" sortIndex="2">
+            <selectionEntry type="upgrade" import="true" name="Arcane Apprentice" hidden="false" id="752e-3631-e11e-8cfc" sortIndex="3">
               <costs>
                 <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0"/>
                 <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="4"/>
@@ -232,7 +232,7 @@
                 <modifier type="add" value="7132-c89d-5c3b-f144" field="category" scope="parent"/>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Arcane Adept" hidden="false" id="17d5-e854-b25e-8ba5" sortIndex="1">
+            <selectionEntry type="upgrade" import="true" name="Arcane Adept" hidden="false" id="17d5-e854-b25e-8ba5" sortIndex="2">
               <profiles>
                 <profile name="Arcane Adept" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="8f57-9075-a547-cd9d">
                   <characteristics>
@@ -253,11 +253,11 @@
                 <modifier type="add" value="3d4a-a286-8c44-a69e" field="category" scope="parent"/>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Stealthy" hidden="false" id="9146-a11f-003f-703e" sortIndex="7">
+            <selectionEntry type="upgrade" import="true" name="Stealthy" hidden="false" id="9146-a11f-003f-703e" sortIndex="8">
               <profiles>
                 <profile name="Stealthy" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="d73d-fa30-86b9-c283">
                   <characteristics>
-                    <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">This unit treats all Garrisons as having the Obstruction ability, for the purposes of determining incoming and outgoing Line of Sight.</characteristic>
+                    <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">This unit cannot see or be seen through garrisons within 1&quot;, or while occupying that garrison.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -273,7 +273,7 @@
                 </modifier>
               </modifiers>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Sabotage" hidden="false" id="9515-0996-7e45-ff5b" sortIndex="5">
+            <selectionEntry type="upgrade" import="true" name="Sabotage" hidden="false" id="9515-0996-7e45-ff5b" sortIndex="6">
               <profiles>
                 <profile name="Sabotage" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="47bd-635f-9365-9522">
                   <characteristics>
@@ -285,6 +285,26 @@
                 <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0"/>
                 <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="3"/>
               </costs>
+              <modifiers>
+                <modifier type="decrement" value="1" field="0731-c2df-1fab-1058" affects="self">
+                  <conditions>
+                    <condition type="instanceOf" value="1" field="selections" scope="parent" childId="33e0-fc9d-8e13-6fdb" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Aegis" hidden="false" id="a3ec-029a-386f-79a8" sortIndex="1">
+              <costs>
+                <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0"/>
+                <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="2"/>
+              </costs>
+              <profiles>
+                <profile name="Aegis" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="67af-27f3-231a-9dfe">
+                  <characteristics>
+                    <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">If the Hunker action is performed, apply that hunker to any attacks intercepted later in the turn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
               <modifiers>
                 <modifier type="decrement" value="1" field="0731-c2df-1fab-1058" affects="self">
                   <conditions>
@@ -805,12 +825,12 @@
             <selectionEntry type="upgrade" import="true" name="Powered Weapons" hidden="false" id="dab2-0d9c-b4cd-ad90" sortIndex="7">
               <costs>
                 <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0"/>
-                <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="3"/>
+                <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="2"/>
               </costs>
               <profiles>
                 <profile name="Powered Weapons" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="95f9-de7f-921c-7658">
                   <characteristics>
-                    <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">Treat an enemy&apos;s armor as being one higher when attacking with a melee weapon.</characteristic>
+                    <characteristic name="Effect (Not included in unit profiles)" typeId="b357-a4ea-418e-7381">Once per game, treat an enemy&apos;s armor as being one higher when attacking with a melee weapon.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -905,7 +925,7 @@
             <selectionEntry type="upgrade" import="true" name="Quick Strike" hidden="false" id="2b2d-92a0-5279-a19e" sortIndex="8">
               <costs>
                 <cost name="Troops" typeId="034e-d4ad-5794-b1c7" value="0"/>
-                <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="2"/>
+                <cost name="Requisition Points" typeId="0731-c2df-1fab-1058" value="3"/>
               </costs>
               <profiles>
                 <profile name="Quick Strike" typeId="690a-cd25-f56c-9f75" typeName="Upgrade" hidden="false" id="5b98-7e77-58d5-caf9">
@@ -1252,7 +1272,7 @@
           <profiles>
             <profile name="Psychic Fog" typeId="c371-a3d0-0aa9-e344" typeName="Manifestation" hidden="false" id="f31f-6b14-991c-fdb0">
               <characteristics>
-                <characteristic name="Effect" typeId="f3fd-20f1-f80c-d1a9">Any units while within 3&quot; of a target objective lose their Operative keyword until the end of the turn.</characteristic>
+                <characteristic name="Effect" typeId="f3fd-20f1-f80c-d1a9">Until the end of the turn, a target objective ignores the Operative special rule.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1300,7 +1320,7 @@
           <profiles>
             <profile name="Mind Rake" typeId="c371-a3d0-0aa9-e344" typeName="Manifestation" hidden="false" id="7370-b72b-4bf1-5071">
               <characteristics>
-                <characteristic name="Effect" typeId="f3fd-20f1-f80c-d1a9">This unit gains foresight until its next activation. Once during a Strategic Gamble your opponent must select and reveal their bet before you select yours.</characteristic>
+                <characteristic name="Effect" typeId="f3fd-20f1-f80c-d1a9">This player gains foresight until the end of the turn. Once during a Strategic Gamble your opponent must select and reveal their bet before you select yours.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1336,7 +1356,7 @@
           <profiles>
             <profile name="Paradox" typeId="c371-a3d0-0aa9-e344" typeName="Manifestation" hidden="false" id="adef-5278-59f5-af09">
               <characteristics>
-                <characteristic name="Effect" typeId="f3fd-20f1-f80c-d1a9">Select a friendly unit with an outgoing attack within Line of Sight. For the rest of the turn, if that unit is slain its attacks are not removed.</characteristic>
+                <characteristic name="Effect" typeId="f3fd-20f1-f80c-d1a9">Select a friendly unit within Line of Sight. For the rest of the turn, if that unit is slain its attacks are not removed or resolved.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1469,7 +1489,7 @@
     <infoGroup name="Terrain Rules" id="26dc-bb25-7084-996d" hidden="false">
       <rules>
         <rule name="Cover #" id="011c-c149-bd56-9a89" hidden="false">
-          <description>A unit outside of this terrain and attacked though it gains Concealment # against that attack.</description>
+          <description>A unit outside of this terrain and attacked through it gains Concealment # against that attack.</description>
           <alias>Cover</alias>
         </rule>
         <rule name="Low Cover #" id="1e82-f454-3bf9-e55f" hidden="false">
@@ -1508,11 +1528,11 @@
     <infoGroup name="Troop Actions" id="f371-6ae7-6c96-362f" hidden="false">
       <rules>
         <rule name="Hunker #" id="2278-a188-ed7c-d270" hidden="false">
-          <description>Remove # Attack Tokens on each incoming ranged attack.</description>
+          <description>Remove # Attack Tokens on each incoming ranged attack, to a minimum of 1.</description>
           <alias>Hunker</alias>
         </rule>
         <rule name="Run #&quot;" id="a4bc-9bb5-5fea-e750" hidden="false">
-          <description>Move an additional # inches.</description>
+          <description>Move an additional # inches. This follows the same rules as a normal move.</description>
           <alias>Run</alias>
         </rule>
       </rules>
@@ -1530,7 +1550,9 @@
           <description>This unit can move over terrain and other units. Units and Terrain can only block Line of Sight or provide cover if they are within 1&quot; of the attacker or target.</description>
         </rule>
         <rule name="Power #" id="f164-d5dc-c4cd-faeb" hidden="false">
-          <description>A living troop with powers grants # Riftwake Tokens at the beginning of each turn and knows a number of Manifestations equal to their Power # +1.</description>
+          <description>A Unit with the Powers # special rule has metaphysical powers. That # represents the number of Riftwake Tokens that Unit grants you at the beginning of each turn while alive, as well as the number of manifestations they&apos;re able to attempt each activation. At the end of each turn, any unspent Riftwake Tokens are lost.
+
+A troop with powers knows a number of Manifestations equal to their Power # +1.</description>
           <alias>Power</alias>
         </rule>
       </rules>
@@ -1574,7 +1596,7 @@
           <alias>Armor Pen.</alias>
         </rule>
         <rule name="Gunline" id="8e15-678d-3310-33f2" hidden="false">
-          <description>If this unit&apos;s attack target charges into melee with this unit, resolve this attack before the enemy attacks. Long range weapons still have their attacks halved.</description>
+          <description>If this unit&apos;s attack target charges into melee with this unit, resolve this attack before the enemy attacks. Long range weapons still have their attacks Cut Short (pg 23).</description>
         </rule>
         <rule name="First Strike" id="8837-c606-667b-8027" hidden="false">
           <description>This attack is resolved instantly.</description>
@@ -1818,7 +1840,7 @@
                   <characteristics>
                     <characteristic name="Background" typeId="b9a9-d99d-524b-41d0">Culture</characteristic>
                     <characteristic name="Type" typeId="1c71-10d3-dc19-f51d">Special Action</characteristic>
-                    <characteristic name="Effect (Not include in unit profiles)" typeId="5504-6f7d-095e-7fdd">Regain one lost Infantry or Cavalry model.</characteristic>
+                    <characteristic name="Effect (Not include in unit profiles)" typeId="5504-6f7d-095e-7fdd">Regain 1 lost Infantry or Cavalry model. Units with 5 or fewer health may regain 2 models instead.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1899,7 +1921,7 @@
                   <characteristics>
                     <characteristic name="Background" typeId="b9a9-d99d-524b-41d0">Martial Prowess</characteristic>
                     <characteristic name="Type" typeId="1c71-10d3-dc19-f51d">Tactical Ploy</characteristic>
-                    <characteristic name="Effect (Not include in unit profiles)" typeId="5504-6f7d-095e-7fdd">Every unit in your army may attempt to manifest 1 Kinetic Bolt each activation.</characteristic>
+                    <characteristic name="Effect (Not include in unit profiles)" typeId="5504-6f7d-095e-7fdd">Every unit in your army knows the Kinetic Bolt manifestation.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2158,7 +2180,7 @@
                   <characteristics>
                     <characteristic name="Background" typeId="b9a9-d99d-524b-41d0">Motivation</characteristic>
                     <characteristic name="Type" typeId="1c71-10d3-dc19-f51d">Special Condition</characteristic>
-                    <characteristic name="Effect (Not include in unit profiles)" typeId="5504-6f7d-095e-7fdd">Gain 1 Strategic Token when: end any turn with fewer troops or Victory Points than your opponent. Can be scored twice.</characteristic>
+                    <characteristic name="Effect (Not include in unit profiles)" typeId="5504-6f7d-095e-7fdd">Gain 1 Strategic Token when: end any turn with fewer troops or Victory Points than your opponent. Can be scored twice per turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2180,7 +2202,7 @@
                   <characteristics>
                     <characteristic name="Background" typeId="b9a9-d99d-524b-41d0">Motivation</characteristic>
                     <characteristic name="Type" typeId="1c71-10d3-dc19-f51d">Special Condition</characteristic>
-                    <characteristic name="Effect (Not include in unit profiles)" typeId="5504-6f7d-095e-7fdd">Gain 1 Strategic Token when: any unit crosses into their opponents half of the board. Can be scored once per unit.</characteristic>
+                    <characteristic name="Effect (Not include in unit profiles)" typeId="5504-6f7d-095e-7fdd">Gain 1 Strategic Token when: any unit crosses into their opponent&apos;s half of the board. Can be scored once per unit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2224,7 +2246,7 @@
                   <characteristics>
                     <characteristic name="Background" typeId="b9a9-d99d-524b-41d0">Motivation</characteristic>
                     <characteristic name="Type" typeId="1c71-10d3-dc19-f51d">Special Condition</characteristic>
-                    <characteristic name="Effect (Not include in unit profiles)" typeId="5504-6f7d-095e-7fdd">Gain 1 Strategic Token when: a enemy Escapes a ranged attack or moves while targeted with a melee attack. This can trigger twice per turn.</characteristic>
+                    <characteristic name="Effect (Not include in unit profiles)" typeId="5504-6f7d-095e-7fdd">Gain 1 Strategic Token when: an enemy Escapes a ranged attack or moves while targeted with a melee attack. This can trigger twice per turn.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
