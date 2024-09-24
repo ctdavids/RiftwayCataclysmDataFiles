@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-0fce-63e8-ee69-564a" name="RiftwayCataclysm" battleScribeVersion="2.03" revision="2" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" hidden="true" publicationId="0b7b-3854-6d2d-933a">
+<gameSystem id="sys-0fce-63e8-ee69-564a" name="RiftwayCataclysm" battleScribeVersion="2.03" revision="3" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" hidden="true" publicationId="0b7b-3854-6d2d-933a">
   <costTypes>
     <costType name="Troops" id="034e-d4ad-5794-b1c7" defaultCostLimit="4" hidden="false">
       <comment>The user can configure this value while creating a list or modifying cost limits</comment>
@@ -1552,7 +1552,7 @@
         <rule name="Power #" id="f164-d5dc-c4cd-faeb" hidden="false">
           <description>A Unit with the Powers # special rule has metaphysical powers. That # represents the number of Riftwake Tokens that Unit grants you at the beginning of each turn while alive, as well as the number of manifestations they&apos;re able to attempt each activation. At the end of each turn, any unspent Riftwake Tokens are lost.
 
-A troop with powers knows a number of Manifestations equal to their Power # +1.</description>
+A Unit with powers knows a number of Manifestations equal to their Power # +1.</description>
           <alias>Power</alias>
         </rule>
       </rules>
