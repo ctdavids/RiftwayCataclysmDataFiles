@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="true" id="a829-6a90-c55e-a89a" name="Commander Archetypes" gameSystemId="sys-0fce-63e8-ee69-564a" gameSystemRevision="1" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="true" id="a829-6a90-c55e-a89a" name="Commander Archetypes" gameSystemId="sys-0fce-63e8-ee69-564a" gameSystemRevision="1" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Arch Riftweaver" hidden="false" id="ybnd-tc9k-p6zj-jco9">
       <categoryLinks>
@@ -324,7 +324,7 @@
           <description>This unit may use the Double Time ploy any number of times during its movement phase.</description>
         </rule>
         <rule name="Whirlwind of Death" id="845d-0d13-58e2-9a39" hidden="false">
-          <description>If this unit moves 1&quot; away from an enemy attacking it with a Melee weapon, halve those attacks, rounding up. Any of this unit&apos;s unresolved outgoing attacks are also reduced by half, rounding up, and then resolved immediately.</description>
+          <description>If this unit moves 1&quot; away from an enemy attacking it with a Melee weapon, halve those attacks, rounding up. Any of this unit&apos;s unresolved outgoing attacks are also halved, rounding up, and then resolved immediately.</description>
         </rule>
       </rules>
       <infoLinks>
